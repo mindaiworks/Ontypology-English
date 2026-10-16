@@ -387,7 +387,7 @@ There are three outlooks. First, introduce the Temporal Type into experimental d
 
 ![image12.png](PIC/image12.png)
 
-[www.longreat.net](www.longreat.net)
+[www.longreat.net](https://www.longreat.net)
 
 Chang-Feng Chang [gamma@livemail.tw](mailto:gamma@livemail.tw)
 

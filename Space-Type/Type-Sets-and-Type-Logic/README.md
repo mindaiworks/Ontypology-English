@@ -1335,7 +1335,7 @@ This chapter rewrites the six judgment exercises from original Chapter 5.5.6 as 
 
 ![](./media/image35.png)
 
-[www.longreat.net](www.longreat.net)
+[www.longreat.net](https://www.longreat.net)
 
 Chang-Feng Chang<gamma@livemail.tw>
 

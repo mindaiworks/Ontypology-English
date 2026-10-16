@@ -585,7 +585,7 @@ The drill of synthetic scenario C-01 shows: the output of a qualified simulation
 
 ![image17.png](PIC/image17.png)
 
-[www.longreat.net](www.longreat.net)
+[www.longreat.net](https://www.longreat.net)
 
 Chang-Feng Chang [gamma@livemail.tw](mailto:gamma@livemail.tw)
 

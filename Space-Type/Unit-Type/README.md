@@ -218,7 +218,7 @@ Chapter Key Points Review
 
 ![image13](assets/image13.png)
 
-[www.longreat.net](www.longreat.net)
+[www.longreat.net](https://www.longreat.net)
 
 Chang-Feng Chang [gamma@livemail.tw](mailto:gamma@livemail.tw)
 

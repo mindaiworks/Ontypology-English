@@ -209,7 +209,7 @@ This is precisely the most concrete appearance of the word "relational" in relat
 
 ![image13.png](docx_media/image13.png)
 
-[www.longreat.net](www.longreat.net)
+[www.longreat.net](https://www.longreat.net)
 
 Chang-Feng Chang[gamma@livemail.tw](mailto:gamma@livemail.tw)
 

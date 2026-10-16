@@ -12,7 +12,7 @@
 
 *Property , Containers, BOM &amp; SOM*
 
-![image1](單位形.assets/image1.jpg)
+![image1](assets/image1.jpg)
 
 ## Table of Contents
 
@@ -48,13 +48,13 @@
 >
 > **◆** How do the parts depend on one another?—"SOM, the Space of Materials" (Chapter Three).
 
-![image2](單位形.assets/image2.png)
+![image2](assets/image2.png)
 
 > **Figure 1-1** The four descriptive dimensions of a Unit Type
 
 ## Chapter One　Property and Attribute Value
 
-![image3](單位形.assets/image3.jpg)
+![image3](assets/image3.jpg)
 
 > *Chapter Imagery・The Axis of Property—Dimensions and Graduations*
 
@@ -80,11 +80,11 @@ Once "material" and "handle" are established, the first two cups must also have 
 
 **Step Four:** For cups added thereafter, whether the color becomes gold, silver, beige, khaki, white, or gray, or the material becomes stainless steel or paper, all these differences can match up with the two existing dimensions of color and material. Therefore one need only add new attribute values beneath the corresponding properties, and there is no need at all to open a new property; handle and lid likewise continue to be recorded as Y／N, and no fifth new property will pop up, because all differences observed so far can already be accommodated by these four dimensions.
 
-![image4](單位形.assets/image4.png)
+![image4](assets/image4.png)
 
 > **Figure 1-2** A timeline of properties emerging as cups are added one by one
 
-![image5](單位形.assets/image5.png)
+![image5](assets/image5.png)
 
 > **Figure 1-3** The four stages of property emergence and a consolidated property–attribute value master table
 
@@ -115,7 +115,7 @@ This mechanism also explains why the number of properties is usually far smaller
 
 ## Chapter Two　Space Collections
 
-![image6](單位形.assets/image6.jpg)
+![image6](assets/image6.jpg)
 
 > *Chapter Imagery・The Light of the Container—Boundary and Interior Space*
 
@@ -135,19 +135,19 @@ The interior space is the piece of space enclosed by the boundary and actually u
 
 This is the most crucial and also most easily overlooked property of a Space Collection: a container's identity is not determined by its contents, but by its own boundary and structure. Because identity is independent of the contents, a container can go through the whole process of "put something in → take it out → put something else in," and each time it is still recognized as the same container. This is very different from the identity of ordinary things: if we replace the "water" in a cup of water with "coffee," we do not say "this cup of water became coffee," but rather "what is in the cup has changed" and "what changed is the contents," while "the container has not changed"—this feeling for the language already reflects the fact that a container's identity is independent of its contents.
 
-![image7](單位形.assets/image7.png)
+![image7](assets/image7.png)
 
 > **Figure 2-1** The three major elements of a Space Collection: boundary, interior space, independent identity
 
 From this extends the relationship between container and contents: the contents are replaceable and removable, and do not in turn define the container; a container can have size limits, which is also where a container differs from "boundless space." In addition, containers can also nest inside one another—a cup can be put into a bag, the bag can be put into a box, the box can be put into a room; each layer of container stands independently on its own, each obeying the three basic elements of "boundary, interior space, independent identity."
 
-![image8](單位形.assets/image8.jpg)
+![image8](assets/image8.jpg)
 
 > **Figure 2-2** Nesting of containers: cup into bag, bag into box, box into room—each layer stands independently on its own
 
 ## Chapter Three　Space Lists: BOM and SOM
 
-![image9](單位形.assets/image9.jpg)
+![image9](assets/image9.jpg)
 
 > *Chapter Imagery・Structural Blueprint—An Exploded View of Parts*
 
@@ -166,7 +166,7 @@ The criterion for judging whether a feature should be listed in the BOM is only 
 | **Color** | **Property** | It cannot be taken off; removing the color does not leave "a portion of color that was taken off," the color simply disappears. |
 | **Material** | **Property** | Likewise it cannot be taken off; material is "what the cup body is made of," not "what is contained inside" the cup body. |
 
-![image10](單位形.assets/image10.png)
+![image10](assets/image10.png)
 
 > **Figure 3-1** The boundary between BOM and property: what can be taken off goes into the BOM, what cannot goes into properties
 
@@ -197,13 +197,13 @@ What the SOM describes is: an object that simultaneously possesses the "boundary
 
 Looking at the SOM with the cup as an example: the interior space (from Space Collections) is the space enclosed by the boundary, and it is not empty inside but filled with structural parts; the structural parts (from the BOM) are the cup body, cup handle, cup bottom, and cup lid, each occupying a portion of the interior space, and their positions relative to one another are fixed—the handle grows at the middle of the side, the bottom is at the very lowest, and positions cannot be casually swapped; the dependency relations (from the BOM) show themselves in that if the cup bottom disappears, the whole structure collapses and the cup is no longer a cup, and if the handle disappears, the cup can still hold water, but it is no longer the original "cup with a handle."
 
-![image11](單位形.assets/image11.jpeg)
+![image11](assets/image11.jpeg)
 
 > **Figure 3-2** SOM ＝ BOM ＋ Space Collections: from parts list to structural map
 
 This is a completely different level of description from the earlier, standalone "cup as container" (holding water, holding coffee)—a cup that holds water is looking at the cup as a Space Collection; how the cup itself is constituted by cup body, handle, and bottom is looking at the cup as an SOM. The two can hold at the same time; they simply answer two different questions respectively: "what guests are inside it" and "how this thing itself grew into being." The SOM places the originally abstract relation of "structure" back onto the concrete stage of "space," so that the dependency relations among parts are not merely a logical description, but an existence that can be seen, located, and actually occupy space.
 
-![image12](單位形.assets/image12.png)
+![image12](assets/image12.png)
 
 > **Figure 3-3** The three elements of a Space Collection, and how the BOM combines with Space Collections into the SOM
 
@@ -213,9 +213,9 @@ Review of This Chapter's Key Points
 | --- | --- |
 | **❖ BOM, the Bill of Materials**<br><br>Only what can be taken off, and still recognizes itself after being taken off, is a part. Color and material cannot be taken off—they belong to properties, not the BOM. | **❖ SOM, the Space of Materials**<br><br>SOM ＝ BOM ＋ Space Collections. Parts fixedly occupy spatial positions and are structurally dependent on one another; removing a part shakes the identity of the whole. |
 
-![image13](單位形.assets/image13.png)
+![image13](assets/image13.png)
 
-[www.longreat.net](www.longreat.net)
+[www.longreat.net](https://www.longreat.net)
 
 Chang-Feng Chang [gamma@livemail.tw](mailto:gamma@livemail.tw)
 

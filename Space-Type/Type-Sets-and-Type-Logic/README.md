@@ -485,7 +485,9 @@ When we say "there is water in the cup," we are saying three things at once: 1. 
 
 The reason mathematical sets are so useful is precisely that they condense the matter of "a group of things constituting a whole" down to just "does it belong." The theoretical framework established in this text systematically stacks three value-adds on top of this minimal core of the mathematical set, turning the concept of "Type" from an abstract mathematical tool into a cognitive framework capable of fully describing the real world.
 
-![](./media/image17.png)
+![Part Two divider: Mathematical Proofs — Axiomatization, Theorems and Proofs](./media/image17.png)
+
+*Part Two　Mathematical Proofs — Axiomatization, Theorems and Proofs　(the axiomatic reconstruction of Type Logic: four axioms and twelve theorems)*
 
 ![](./media/image18.png)
 

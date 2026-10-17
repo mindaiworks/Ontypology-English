@@ -4,8 +4,8 @@
  <a href="https://v.douyin.com/K3S5wEwpWkw">📱Portrait</a> 
  </p>
 
-# Ontypology　Ontology
-## Space Type　Space
+# Ontypology Ontology
+## Space Type Space
 ### A Theoretical Framework from Difference & Similarity and Split & Merge to Formal Logic
 
 ![](main.jpg)
@@ -14,7 +14,7 @@
 
 ## Abstract
 
-This paper proposes a theoretical framework that starts from a cognitive starting point and constructs the concept of "Type" (形) layer by layer. The paper first explains that a "Type" does not exist innately; rather, the brain first detects "Difference & Similarity", and only after drawing a boundary through the acts of "Split" and "Merge" does a Type come into being. It then takes "Attribute and Attribute Value" as its core to explain how a "Unit Type" gradually emerges in the process of comparing concrete objects (using a cup as an example), and extends this into two complementary perspectives for describing objects: "Space Collections" and "Space Object Model" (BOM／SOM). It further points out that a "Framework" is the abstraction of this derivation process into a method that can be applied repeatedly, and verifies its universality by analogy with the biological taxonomic hierarchy (kingdom, phylum, class, order, family, genus, species). It then maps the entire theory onto the table structure of a Relational Database, explaining the logical relationships between the schema (Type) and rows (entities), Primary Keys, and master-detail references. Finally, it returns to mathematical Set Theory, pointing out that containers, SOM, and abstraction respectively supply the three properties that mathematical sets lack: "identity independence", "inter-element structure", and "generation rule".
+This paper proposes a theoretical framework that starts from a cognitive starting point and constructs the concept of "Type" layer by layer. The paper first explains that a "Type" does not exist innately; rather, the brain first detects "Difference & Similarity", and only after drawing a boundary through the acts of "Split" and "Merge" does a Type come into being. It then takes "Attribute and Attribute Value" as its core to explain how a "Unit Type" gradually emerges in the process of comparing concrete objects (using a cup as an example), and extends this into two complementary perspectives for describing objects: "Space Collections" and "Space Object Model" (BOM／SOM). It further points out that a "Framework" is the abstraction of this derivation process into a method that can be applied repeatedly, and verifies its universality by analogy with the biological taxonomic hierarchy (kingdom, phylum, class, order, family, genus, species). It then maps the entire theory onto the table structure of a Relational Database, explaining the logical relationships between the schema (Type) and rows (entities), Primary Keys, and master-detail references. Finally, it returns to mathematical Set Theory, pointing out that containers, SOM, and abstraction respectively supply the three properties that mathematical sets lack: "identity independence", "inter-element structure", and "generation rule".
 
 The paper consists of six chapters, advancing in the order "cognition → description → framework → engineering → mathematics → unification", with each chapter overviewed by a single infographic. The paper attempts to show that from cognition, object description, and data structures to Set Theory, they in fact share the same underlying logic of the "Type".
 
@@ -24,7 +24,7 @@ The paper consists of six chapters, advancing in the order "cognition → descri
 
 ## Introduction
 
-This paper proposes a theoretical framework that starts from a cognitive starting point and constructs the concept of "Type" (形) layer by layer. A "Type" does not exist innately; rather, the brain first detects "Difference & Similarity", and only after drawing a boundary through the acts of "Split" and "Merge" does a Type come into being. From cognition, object description, and data structures to Set Theory, they in fact share the same underlying logic of the "Type".
+This paper proposes a theoretical framework that starts from a cognitive starting point and constructs the concept of "Type" layer by layer. A "Type" does not exist innately; rather, the brain first detects "Difference & Similarity", and only after drawing a boundary through the acts of "Split" and "Merge" does a Type come into being. From cognition, object description, and data structures to Set Theory, they in fact share the same underlying logic of the "Type".
 
 The reason a unified theory of the "Type" is needed is that each field has long since developed its own language for describing the "Type", yet these languages do not communicate with one another: cognitive science talks about concept formation, databases talk about schema, engineering talks about bills of materials, and mathematics talks about sets. These languages describe the same thing—how to divide a chaotic world into units that can be identified, described, and reasoned about—yet they cannot verify one another because of the barriers between their terminologies. The goal of this paper is precisely to provide a vocabulary that is sufficiently fundamental and sufficiently neutral for the conclusions of these fields to be translated into one another.
 
@@ -32,8 +32,8 @@ Methodologically, this paper does not adopt axiomatic deduction but rather a "co
 
 The structure of the paper is as follows: Chapter 1 establishes the cognitive starting point; Chapter 2 develops four perspectives for describing a Type; Chapter 3 abstracts the description method into a Framework; Chapter 4 uses a Relational Database for engineering verification; Chapter 5 returns to Set Theory to fill the mathematical gap; and Chapter 6 summarizes the cross-domain consistency and looks ahead to applications.
 
-![Figure 1　Ontypology of Space Type・Panorama of the Theory](CPIC/fig1_overview.png)
-*Figure 1　Ontypology of Space Type・Panorama of the Theory: the six-chapter chain from the cognitive starting point to Set Theory*
+![Figure 1 Ontypology of Space Type・Panorama of the Theory](CPIC/fig1_overview.png)
+*Figure 1 Ontypology of Space Type・Panorama of the Theory: the six-chapter chain from the cognitive starting point to Set Theory*
 
 ### How to Read This Theory
 
@@ -53,8 +53,8 @@ The third level abstracts the very act of "describing an object" into a "Framewo
 | Type Set | What is Set Theory missing? | The three value-adds: identity, structure, rules |
 | Conclusion | Why are the domains consistent? | They share the same underlying logic of the "Type" |
 
-![Figure 2　The Five-Layer Construction Chain](CPIC/fig2_five_layers.png)
-*Figure 2　The Five-Layer Construction Chain: a bottom-up theoretical system*
+![Figure 2 The Five-Layer Construction Chain](CPIC/fig2_five_layers.png)
+*Figure 2 The Five-Layer Construction Chain: a bottom-up theoretical system*
 
 ---
 
@@ -70,7 +70,7 @@ Appearing together with Difference & Similarity is similarity: difference makes 
 
 Given Difference & Similarity, there still needs to be an act to fix it in place, and this act is "Split" and "Merge". Split is to exclude what is perceptually different beyond the boundary; Merge is to include what is perceptually similar within the boundary. Split & Merge is not completed in one stroke but adjusted repeatedly: first a rough cluster is split off, then subdivided according to new differences, then merged again according to new similarities, until the boundary stabilizes.
 
-Once the boundary stabilizes, a key transformation occurs: the many sensations within the boundary are no longer individual noise but are treated as a unit that can be identified as a whole. This "common whole enclosed by a boundary" is what this paper calls a "Type" (形). Therefore a Type is not discovered but drawn; first the boundary, then the Type.
+Once the boundary stabilizes, a key transformation occurs: the many sensations within the boundary are no longer individual noise but are treated as a unit that can be identified as a whole. This "common whole enclosed by a boundary" is what this paper calls a "Type". Therefore a Type is not discovered but drawn; first the boundary, then the Type.
 
 ### 1.3 A Type Must Have a Name
 
@@ -79,8 +79,8 @@ Once a Type is established, it demands a name. A name is not decoration but a ne
 > **Core Proposition**
 > Difference & Similarity precede Split & Merge, and Split & Merge draw the boundary; within the boundary a Type is born, and a Type must have a name—a Type does not exist innately.
 
-![Figure 3　From Difference & Similarity to Type](CPIC/fig3_cognitive_chain.png)
-*Figure 3　From Difference & Similarity to Type: the four operations of cognition*
+![Figure 3 From Difference & Similarity to Type](CPIC/fig3_cognitive_chain.png)
+*Figure 3 From Difference & Similarity to Type: the four operations of cognition*
 
 ---
 
@@ -105,8 +105,8 @@ Describing a Type also requires opening it up to look inside. BOM (Bill of Mater
 > **Four Complementary Perspectives**
 > Attribute = what it looks like; container = where it is; BOM = what it is made of; SOM = how the composition is arranged. Only the four together constitute a complete description of a Type.
 
-![Figure 4　The Cup Case](CPIC/fig4_cup_four_views.png)
-*Figure 4　The Cup Case: four descriptive perspectives on a single Type*
+![Figure 4 The Cup Case](CPIC/fig4_cup_four_views.png)
+*Figure 4 The Cup Case: four descriptive perspectives on a single Type*
 
 | Perspective | Question Answered | Key Output | Everyday Intuition |
 | --- | --- | --- | --- |
@@ -132,8 +132,8 @@ The value of a Framework is verified by "still holding when applied to new objec
 > **The Value of the Framework**
 > The value of a Framework lies not in describing one object but in describing a class of objects; only when it can be applied repeatedly does a Framework hold.
 
-![Figure 5　The Four Steps of the Framework](CPIC/fig5_framework.png)
-*Figure 5　The Four Steps of the Framework: a reusable description method*
+![Figure 5 The Four Steps of the Framework](CPIC/fig5_framework.png)
+*Figure 5 The Four Steps of the Framework: a reusable description method*
 
 ---
 
@@ -152,8 +152,8 @@ Finer correspondences hold as well: a Primary Key gives each row an identifiable
 > **A Precise Translation**
 > schema = Type, row = entity, Primary Key = identity, Foreign Key = structure—a database is not a metaphor but a precise implementation of this theory.
 
-![Figure 6　RDB Correspondence](CPIC/fig6_rdb_mapping.png)
-*Figure 6　Relational Database Correspondence: a precise translation of Type and entity*
+![Figure 6 RDB Correspondence](CPIC/fig6_rdb_mapping.png)
+*Figure 6 Relational Database Correspondence: a precise translation of Type and entity*
 
 | Ontypology Term | RDB Correspondence | Explanation |
 | --- | --- | --- |
@@ -181,8 +181,8 @@ The three constructs of this paper precisely fill these three gaps: a container 
 > **Three Value-Adds**
 > A container adds identity, SOM adds structure, abstraction adds rules—once these are supplied, sets come close to the everyday intuition of a "whole".
 
-![Figure 7　The Three Supplements to Set Theory](CPIC/fig7_set_additions.png)
-*Figure 7　The three supplements to Set Theory*
+![Figure 7 The Three Supplements to Set Theory](CPIC/fig7_set_additions.png)
+*Figure 7 The three supplements to Set Theory*
 
 ---
 
@@ -192,8 +192,8 @@ Reviewing the whole paper, the four domains of cognitive science, object descrip
 
 Looking ahead to applications, this Framework offers at least three paths: in cognitive science, it provides a computable descriptive layer for concept formation and classificatory reasoning; in databases and knowledge engineering, it provides a cognitive foundation for schema design and ontology construction; and for the World Model of Artificial General Intelligence (AGI), it provides a unified modeling language from perception to structure—allowing machines not merely to store data, but to "draw boundaries and give birth to Types" as humans do.
 
-![Figure 8　Unified Framework](CPIC/fig8_unified_pyramid.png)
-*Figure 8　Ontypology of Space Type: the unified framework and its application domains*
+![Figure 8 Unified Framework](CPIC/fig8_unified_pyramid.png)
+*Figure 8 Ontypology of Space Type: the unified framework and its application domains*
 
 > **One Sentence Summarizing the Whole Paper**
 > To understand a Type is to understand "what it looks like" (Attribute), "where it is" (container), "what it is made of" (SOM), and "whether this description method can be applied repeatedly" (Framework).

@@ -1,4 +1,4 @@
-> Ontypology 本形學
+> Ontypology
 > Brain Consultation
 > ClinicMind and the Accurate Method of AI Medical Interview
 > The Accurate Method of AI Medical Interview by Ontypology
@@ -155,7 +155,7 @@ This paper summarizes the structural defects of current LLM consultation into si
 
 ![image2](PIC/image2.png)
 
-Figure 1-1　A panorama of the six major pain points of AI medical interview
+Figure 1-1 A panorama of the six major pain points of AI medical interview
 
 The six pain points are not independent of one another: non-traceability makes hallucination hard to falsify, level confusion makes missed questions hard to localize, and miscalibrated evaluation leaves the first four chronically without quantified pressure. To cure the root, one must begin with "how accuracy is defined."
 
@@ -178,7 +178,7 @@ This paper is the application volume in which the Ontypology research line lands
 
 ![image3](PIC/image3.png)
 
-Figure 1-2　Architecture diagram of the paper's chapters
+Figure 1-2 Architecture diagram of the paper's chapters
 
 > Chapter Summary
 > The six pain points of LLM consultation all point to the same root cause: the process is not verifiable. Redefining accuracy as "process verifiability" turns consultation from a problem of model talent into a problem of process engineering; the Type, container, SOM, Framework, and abstraction of Ontypology, together with the Mind Model dual engine, are precisely the language born for such a process.
@@ -193,7 +193,7 @@ The six elements of clinical consultation—chief complaint, history of present 
 
 ![image4](PIC/image4.png)
 
-Figure 2-1　Overview of Type formation of consultation elements
+Figure 2-1 Overview of Type formation of consultation elements
 
 In other words, a well-trained physician is already performing Type formation in the Ontypological sense—except that these actions lie scattered in intuition and habit, never written down as verifiable rules. What AI consultation demands is precisely this: to write intuition into rules, and to turn habit into process.
 
@@ -201,7 +201,7 @@ In other words, a well-trained physician is already performing Type formation in
 
 For Type formation results to be carried by computers and exchanged across institutions, they must align with the data models of medical information systems. Using HL7 FHIR and the Relational Database (RDB) as reference baselines, this paper gives a three-party mapping (Table 2-1). The significance of the mapping is this: Ontypology concepts are not a brand-new database built from scratch, but the "cognitive semantic layer" of existing data models—it explains why the table header is a Type, the data row an entity, and the primary key an identity, and also explains why the fields of a medical-record table cannot change because of one particular row.
 
-Table 2-1　Three-party mapping: consultation elements ↔ Ontypology ↔ FHIR/RDB
+Table 2-1 Three-party mapping: consultation elements ↔ Ontypology ↔ FHIR/RDB
 
 | Consultation Element | Ontypological Type Formation | FHIR Resource/Field | RDB Correspondence |
 | --- | --- | --- | --- |
@@ -222,9 +222,9 @@ In the consultation domain, the three value-adds of Type Logic each have their c
 
 ![image5](PIC/image5.png)
 
-Figure 2-2　Patient container and symptom SOM structure
+Figure 2-2 Patient container and symptom SOM structure
 
-Table 2-2　Master table of Type Attributes of consultation elements (example of the five axes of the history of present illness)
+Table 2-2 Master table of Type Attributes of consultation elements (example of the five axes of the history of present illness)
 
 | Attribute (Dimension) | Type | Typical Attribute Values | Clinical Significance |
 | --- | --- | --- | --- |
@@ -246,7 +246,7 @@ Consultation cannot be separated from time. The Temporal Type Theory defines the
 
 ![image6](PIC/image6.png)
 
-Figure 2-3　Illness-course time Type (I, E, κ) and the bidirectional causal/counter-causal chain
+Figure 2-3 Illness-course time Type (I, E, κ) and the bidirectional causal/counter-causal chain
 
 With the time Type, causal reasoning and counter-causal reasoning can run bidirectionally on the same structure: causal reasoning is forward prediction—deriving the symptoms that should be seen from the cause and generating an examination checklist; counter-causal reasoning is reverse convergence—inferring the cause back from the evidence and performing differential ranking and correction. Among the eighteen themes of the Temporal Type Theory (Split & Merge, Framework, design patterns, logic generation, memory management, logic application, marking, continuous learning, abstraction, refactoring, thinking, methods of thinking, problem solving, analysis, design, reasoning, causal reasoning, counter-causal reasoning), the three themes most directly related to consultation—reasoning, causal reasoning, and counter-causal reasoning—will recur repeatedly in the six steps of Chapter 3 and the formalization of Chapter 5.
 
@@ -263,9 +263,9 @@ The "Accurate Method in Six Steps" repeatedly validated by Ontypology across app
 
 ![image7](PIC/image7.png)
 
-Figure 3-1　The Accurate Method in Six Steps of consultation
+Figure 3-1 The Accurate Method in Six Steps of consultation
 
-Table 3-1　Inputs, outputs, and check criteria of the six steps
+Table 3-1 Inputs, outputs, and check criteria of the six steps
 
 | Step | Input | Output | Check Criteria |
 | --- | --- | --- | --- |
@@ -286,9 +286,9 @@ Type definition unfolds the candidate Type into an Attribute–Attribute Value m
 
 ![image8](PIC/image8.png)
 
-Figure 3-2　The emergence rule and backfilling of symptom Attributes
+Figure 3-2 The emergence rule and backfilling of symptom Attributes
 
-Table 3-2　Master table of Attributes–Attribute Values of the symptom Type (abdominal pain Type example)
+Table 3-2 Master table of Attributes–Attribute Values of the symptom Type (abdominal pain Type example)
 
 | Attribute | Attribute Values | Timing of Emergence |
 | --- | --- | --- |
@@ -304,9 +304,9 @@ Structuring upgrades the symptom list into a SOM with compositional relations. T
 
 ![image9](PIC/image9.png)
 
-Figure 3-3　The three-grade structural dependency judgment of the symptom SOM
+Figure 3-3 The three-grade structural dependency judgment of the symptom SOM
 
-Table 3-3　Three-grade classification of the symptom SOM and its clinical correspondence
+Table 3-3 Three-grade classification of the symptom SOM and its clinical correspondence
 
 | SOM Grade | Criterion | Clinical Correspondence | System Behavior |
 | --- | --- | --- | --- |
@@ -320,7 +320,7 @@ Framing answers "which mutually independent dimensions there are" and turns the 
 
 ![image10](PIC/image10.png)
 
-Figure 3-4　Two ways of unfolding the differential diagnosis Framework
+Figure 3-4 Two ways of unfolding the differential diagnosis Framework
 
 The universality of the Framework comes from its openness: the intersection criterion ∩(T) lets new disease types be automatically included, while Framework evolution corresponds to the schema change of an RDB—adding an Attribute is "adding a column," adding a case is "adding a row"; the two are asymmetric and each has its own check (a column change requires backfilling all rows).
 
@@ -345,9 +345,9 @@ The system that carries the above method is named in this paper "Brain Consultat
 
 ![image11](PIC/image11.png)
 
-Figure 4-1　ClinicMind Brain Consultation: the dual-engine five-layer architecture
+Figure 4-1 ClinicMind Brain Consultation: the dual-engine five-layer architecture
 
-Table 4-1　ClinicMind's five-layer responsibilities and dual-engine division of labor
+Table 4-1 ClinicMind's five-layer responsibilities and dual-engine division of labor
 
 | Layer | Responsibility | LLM Engine | Mind Model Engine | Verifiable Output |
 | --- | --- | --- | --- | --- |
@@ -361,7 +361,7 @@ Table 4-1　ClinicMind's five-layer responsibilities and dual-engine division of
 
 The dual engine's division of labor is not static. In the initial introduction period, the LLM bears about 99% of the work, with the Mind Model providing 1% of "intelligence value-add" through Type-formation rules and checklists; as the medical-record Type library fills out, judgment rules settle, and correction records Δ accumulate, the Mind Model's share gradually rises to 20% and finally 40%, while the LLM converges to 60%—focusing on the language it is best at (Table 4-2). This direction of evolution is consistent with the claim of "moving from information processing toward intelligence generation": language ability is the entrance, intelligence ability is the destination.
 
-Table 4-2　Evolution of the dual-engine work proportion
+Table 4-2 Evolution of the dual-engine work proportion
 
 | Stage | LLM Share | Mind Model Share | Marker |
 | --- | --- | --- | --- |
@@ -375,7 +375,7 @@ Between L3 and L4 runs ClinicMind's core reasoning loop (Figure 4-2): the predic
 
 ![image12](PIC/image12.png)
 
-Figure 4-2　The prediction–verification–correction loop
+Figure 4-2 The prediction–verification–correction loop
 
 ## 4.4 Memory and the Medical-Record Type Library
 
@@ -434,9 +434,9 @@ At the implementation level, ClinicMind uses HL7 FHIR as its exchange interface:
 
 ![image13](PIC/image13.png)
 
-Figure 5-1　Three-layer Type Logic judgment: container・SOM・abstraction
+Figure 5-1 Three-layer Type Logic judgment: container・SOM・abstraction
 
-Table 5-1　Master table of axioms and theorems
+Table 5-1 Master table of axioms and theorems
 
 | Number | Name | Clinical Correspondence | Inferential Value |
 | --- | --- | --- | --- |
@@ -452,9 +452,9 @@ The awkwardness of clinical judgment is that information is often "uncertain" or
 
 ![image14](PIC/image14.png)
 
-Figure 5-2　FDE four-valued judgment: symptom evidence pairs and the Belnap bilattice
+Figure 5-2 FDE four-valued judgment: symptom evidence pairs and the Belnap bilattice
 
-Table 5-2　Evidence-pair semantics and clinical actions of four-valued judgment
+Table 5-2 Evidence-pair semantics and clinical actions of four-valued judgment
 
 | Value | E⁺ | E⁻ | Semantics | Clinical Action |
 | --- | --- | --- | --- | --- |
@@ -476,7 +476,7 @@ Four-valued semantics is "doubly tolerant": neither n nor b forcibly decides tru
 
 Since accuracy is defined as "process verifiability," an operable scale is needed. This paper follows the five-dimensional accuracy framework of the Ontypology research line and gives anchor descriptions for the consultation scenario (Table 6-1): semantic completeness (everything that should be asked was asked), assumption visibility (every diagnostic assumption explicitly listed), step verifiability (the reasoning chain replayable), level consistency (symptom・evidence・diagnosis・plan do not cross levels), and boundary clarity (knowing when one does not know). Each dimension scores 0–5, for a total of 25.
 
-Table 6-1　Five-dimensional accuracy scale and consultation anchors
+Table 6-1 Five-dimensional accuracy scale and consultation anchors
 
 | Dimension | 5-Point Anchor | 1-Point Anchor |
 | --- | --- | --- |
@@ -490,7 +490,7 @@ Table 6-1　Five-dimensional accuracy scale and consultation anchors
 
 This paper conducts a same-question comparison of six consultation methods (Table 6-2): pure LLM consultation, prompt-engineering enhancement, RAG + LLM, rule engine, expert system, and ClinicMind. The comparison question set covers five kinds of tasks—chief-complaint unfolding, red-flag screening, differential ranking, contradiction handling, and boundary declaration—with scores aggregated by the five-dimensional scale. The positioning difference of the six parties can be summed up in one sentence: the first five are either better at language, or better at rules, or better at retrieval, but only ClinicMind writes "process verifiability" into its architecture.
 
-Table 6-2　Multi-party comparison of six consultation methods (full score 25)
+Table 6-2 Multi-party comparison of six consultation methods (full score 25)
 
 | Method | Semantic Completeness | Assumption Visibility | Step Verifiability | Level Consistency | Boundary Clarity | Total | Structural Weakness |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -507,7 +507,7 @@ Worth noting is the profile of the rule engine and the expert system: they score
 
 ![image15](PIC/image15.png)
 
-Figure 6-1　Five-dimensional accuracy radar: three-track comparison (see Table 6-2 for the full six parties)
+Figure 6-1 Five-dimensional accuracy radar: three-track comparison (see Table 6-2 for the full six parties)
 
 Figure 6-1 overlays three representative tracks on the radar (pure LLM, RAG + LLM, ClinicMind). The pure LLM shape leans toward the semantic-completeness side with the rest collapsed; RAG expands outward as a whole but its shape is uneven; ClinicMind is approximately a regular pentagon—"balance" itself is the characteristic of a verifiable process: all five dimensions are supported by check criteria, with no one-sided protrusion propped up by talent.
 
@@ -531,13 +531,13 @@ Setting: a 45-year-old woman with the chief complaint "half a day of stomach pai
 
 ![image16](PIC/image16.png)
 
-Figure 7-1　C-01 triage consultation flow for acute abdominal pain
+Figure 7-1 C-01 triage consultation flow for acute abdominal pain
 
 ## 7.2 Rehearsal of the Six Steps
 
 Table 7-1 shows row by row how the six steps operate in this case. In the Type detection stage, "half a day of stomach pain" is bounded as the abdominal pain Type and scanned with a red-flag screening checklist; in the Type definition stage, the five axis Attributes are progressively filled in; in the structuring stage, migrating right-lower-quadrant pain and elevated white blood cells are judged as necessary-component candidates; in the framing stage, the differential Framework is unfolded; in the formalization stage, four-valued determination is made for red flag R; in the verification-correction stage, the triage conclusion is written into the correction record Δ.
 
-Table 7-1　C-01 rehearsal of the six steps
+Table 7-1 C-01 rehearsal of the six steps
 
 | Step | Operation Content | Output | Check Result |
 | --- | --- | --- | --- |
@@ -552,7 +552,7 @@ Table 7-1　C-01 rehearsal of the six steps
 
 The essence of triage is trial and error: every round of "hypothesize first, then verify" must leave a record. Table 7-2 is the scheme trial-and-error matrix of this case—the prediction, verification result, and disposition of each of the three candidate assumptions; Table 7-3 is the FDE four-valued coordinates of the red-flag items. Particularly noteworthy is the handling of R = b: with an ear temperature of 38.6°C (E⁺) and a family member's report of "no fever" (E⁻) coexisting, the system neither chooses between them nor averages them, but backtracks and re-measures—this is the most direct value of four-valued semantics in the triage scenario.
 
-Table 7-2　C-01 scheme trial-and-error matrix
+Table 7-2 C-01 scheme trial-and-error matrix
 
 | Assumption H | Prediction (causal) | Verification Result | Disposition |
 | --- | --- | --- | --- |
@@ -560,7 +560,7 @@ Table 7-2　C-01 scheme trial-and-error matrix
 | H2 Acute gastroenteritis | Vomiting and diarrhea predominant, diffuse abdominal pain | Diarrhea mild, pain localized | Downgraded・kept in Δ for reference |
 | H3 Urinary tract stone | Radiating to groin, hematuria | No radiating pain, urinalysis negative | Excluded・J = f |
 
-Table 7-3　C-01 FDE four-valued coordinates of red-flag items
+Table 7-3 C-01 FDE four-valued coordinates of red-flag items
 
 | Red-Flag Item | E⁺ | E⁻ | Value | Action |
 | --- | --- | --- | --- | --- |
@@ -585,13 +585,13 @@ Setting: a 32-year-old man with chronic cough for over ten weeks, in outpatient 
 
 ![image17](PIC/image17.png)
 
-Figure 8-1　Type-formation analysis of the C-02 chronic cough differential consultation
+Figure 8-1 Type-formation analysis of the C-02 chronic cough differential consultation
 
 ## 8.2 Differential Matrix and Time-Type Analysis
 
 Table 8-1 is the evidence matrix of four differential assumptions: upper airway cough syndrome (UACS), cough variant asthma (CVA), eosinophilic bronchitis (EB), and gastroesophageal reflux/drug-induced. Table 8-2 reconstructs the illness course with the time Type—without the time Type, "nocturnal dry cough" is merely a symptom; with the time Type, "nocturnal exacerbation from Week 2" becomes a κ event pointing to CVA.
 
-Table 8-1　C-02 differential matrix (SOM three-grade shading column)
+Table 8-1 C-02 differential matrix (SOM three-grade shading column)
 
 | Assumption | Necessary Component (Red Flag) | Supporting Evidence | Opposing Evidence | FDE Value |
 | --- | --- | --- | --- | --- |
@@ -600,7 +600,7 @@ Table 8-1　C-02 differential matrix (SOM three-grade shading column)
 | EB | Eosinophils↑ (not tested) | Sputum eosinophilic tendency | No data | n → induced sputum test |
 | GERD/drug | Postprandial cough (absent), ACEI (absent) | Occasional bloating | No typical heartburn | f (low retention) |
 
-Table 8-2　C-02 illness-course time-Type analysis
+Table 8-2 C-02 illness-course time-Type analysis
 
 | Time Position | Event E | κ Type-Meaning Binding | Inferential Value |
 | --- | --- | --- | --- |
@@ -629,13 +629,13 @@ Setting: a 70-year-old woman with multiple coexisting diseases (atrial fibrillat
 
 ![image18](PIC/image18.png)
 
-Figure 9-1　C-03 polypharmacy contradiction screening network
+Figure 9-1 C-03 polypharmacy contradiction screening network
 
 ## 9.2 Contradiction Network and Medication Contradiction List
 
 Table 9-1 lists the screening results: the antagonism of warfarin and ibuprofen (bleeding↑) is a red-line contradiction that must be handled by backtracking; the blood-glucose fluctuation of dexamethasone and metformin, and ranitidine's masking of hypoglycemic symptoms, are yellow-line risk-amplifying types; amoxicillin's competition for renal clearance raising warfarin exposure is a red line. The chief complaint "one episode of black stool" gains a structural explanation in the contradiction network—it is not an isolated symptom but the clinical projection of a red-line contradiction.
 
-Table 9-1　C-03 medication contradiction list (excerpt)
+Table 9-1 C-03 medication contradiction list (excerpt)
 
 | Drug Combination | Mechanism | Risk Line | Clinical Projection | Management (illustrative) |
 | --- | --- | --- | --- | --- |
@@ -649,7 +649,7 @@ Table 9-1　C-03 medication contradiction list (excerpt)
 
 Table 9-2 shows the layer-by-layer landing points of three-layer judgment in this case. The container layer rules out the possibility of "cross-institutional duplicate medication misattribution" (the six medications are merged and checked via id(P)); the SOM layer judges warfarin as a necessary component (stopping it means loss of treatment, with the stroke risk of atrial fibrillation rising sharply), ranitidine as a functionally degraded component (replaceable with other gastric mucosal strategies), and decorative health supplements as non-essential components to be directly removed; the abstraction layer uses the "NSAID × anticoagulant" intersection criterion to hit the bleeding risk class, triggering red-line backtracking.
 
-Table 9-2　C-03 three-layer judgment landing points
+Table 9-2 C-03 three-layer judgment landing points
 
 | Layer | Judgment Question | Landing Point in This Case | Follow-Up Action |
 | --- | --- | --- | --- |
@@ -682,9 +682,9 @@ Governance is not a consent form but a closed loop (Figure 10-1): four nodes—t
 
 ![image19](PIC/image19.png)
 
-Figure 10-1　Clinical governance closed loop: four-node auditable cycle
+Figure 10-1 Clinical governance closed loop: four-node auditable cycle
 
-Table 10-1　Clinical governance checklist
+Table 10-1 Clinical governance checklist
 
 | Node | Check Item | Evidence | Frequency |
 | --- | --- | --- | --- |
@@ -710,9 +710,9 @@ Mind AI's three-stage evolution—knowledge unification, thinking unification, a
 
 ![image20](PIC/image20.png)
 
-Figure 11-1　The evolutionary ladder of consultation intelligence
+Figure 11-1 The evolutionary ladder of consultation intelligence
 
-Table 11-1　Mapping of the evolutionary ladder to consultation capabilities
+Table 11-1 Mapping of the evolutionary ladder to consultation capabilities
 
 | Stage | Proportion | Consultation Capability | Type-Library State | Verifiability |
 | --- | --- | --- | --- | --- |
@@ -755,7 +755,7 @@ From the perspective of the eternal way to AGI, Brain Consultation ClinicMind is
 
 This quick reference table consolidates the key operations of the six steps, three-layer judgment, four-valued semantics, and the five-dimensional scale, for quick reference by clinicians and engineers.
 
-Table A1　Consultation Type-formation quick reference table
+Table A1 Consultation Type-formation quick reference table
 
 | Module | Key Question | Action/Criterion | Output |
 | --- | --- | --- | --- |

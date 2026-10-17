@@ -44,47 +44,47 @@ This consolidated collector's edition contains the two texts of Chapter Five of 
 
 # Table of Contents
 
-**Part One　Type Sets and Type Logic (Main Text・Chapter Five)**
+**Part One Type Sets and Type Logic (Main Text・Chapter Five)**
 
-> · 5.1　The Limits of Mathematical Sets
+> · 5.1 The Limits of Mathematical Sets
 >
-> · 5.2　Container: Adding Back "Implicit Elements, Invisible Subsets"
+> · 5.2 Container: Adding Back "Implicit Elements, Invisible Subsets"
 >
-> · 5.3　SOM: Adding Back "the Compositional Structure Between Elements"
+> · 5.3 SOM: Adding Back "the Compositional Structure Between Elements"
 >
-> · 5.4　Abstraction: Adding Back "Feature-Intersection Generation"
+> · 5.4 Abstraction: Adding Back "Feature-Intersection Generation"
 >
-> · 5.5　Examples of Logical Application and Judgment
+> · 5.5 Examples of Logical Application and Judgment
 >
-> · 5.6　Summary
+> · 5.6 Summary
 
-**Part Two　The Mathematical Proofs (Axiomatization・Theorems・Proofs)**
+**Part Two The Mathematical Proofs (Axiomatization・Theorems・Proofs)**
 
-> · Chapter Zero　Abstract and Reading Guide
+> · Chapter Zero Abstract and Reading Guide
 >
-> · Chapter One　Introduction: The Expressive Limits of Set Language
+> · Chapter One Introduction: The Expressive Limits of Set Language
 >
-> · Chapter Two　The Axiomatization of Type Sets
+> · Chapter Two The Axiomatization of Type Sets
 >
-> · Chapter Three　The Container Layer: Identity Independence
+> · Chapter Three The Container Layer: Identity Independence
 >
-> · Chapter Four　The Structural Layer (SOM): Composition Relations
+> · Chapter Four The Structural Layer (SOM): Composition Relations
 >
-> · Chapter Five　The Abstraction Layer: Generative Criteria
+> · Chapter Five The Abstraction Layer: Generative Criteria
 >
-> · Chapter Six　Joint Three-Layer Determination
+> · Chapter Six Joint Three-Layer Determination
 >
-> · Chapter Seven　Formalized Solutions to the Judgment Examples
+> · Chapter Seven Formalized Solutions to the Judgment Examples
 >
-> · Chapter Eight　Conclusion
+> · Chapter Eight Conclusion
 >
-> · Appendix A　Symbol Table
+> · Appendix A Symbol Table
 >
-> · Appendix B　Theorem Index
+> · Appendix B Theorem Index
 
 ![](./media/image6.png)
 
-# Chapter Five　Type Sets and Type Logic　　Main Text・Complete
+# Chapter Five Type Sets and Type Logic  Main Text・Complete
 
 ## 5.1 The Limits of Mathematical Sets
 
@@ -487,13 +487,13 @@ The reason mathematical sets are so useful is precisely that they condense the m
 
 ![Part Two divider: Mathematical Proofs — Axiomatization, Theorems and Proofs](./media/image17.png)
 
-*Part Two　Mathematical Proofs — Axiomatization, Theorems and Proofs　(the axiomatic reconstruction of Type Logic: four axioms and twelve theorems)*
+*Part Two Mathematical Proofs — Axiomatization, Theorems and Proofs (the axiomatic reconstruction of Type Logic: four axioms and twelve theorems)*
 
 ![](./media/image18.png)
 
 **Reading Map: The Logical Dependencies of the Twelve Theorems—You May Read This Figure First, Then Unfold Chapter by Chapter**
 
-# Chapter Zero　Abstract and Reading Guide
+# Chapter Zero Abstract and Reading Guide
 
 Chapter Five, *Type Sets and Type Logic*, pointed out in natural language that mathematical sets answer only "does it belong," and omit three layers of information—**identity independence**, **the structure between elements**, and **generation rules**. This part formalizes these three layers of information: we give an axiomatic definition of Type Sets, propose four axioms, and prove twelve theorems on that basis. All proofs use only elementary set theory and basic logic, and rely on no unstated intuition.
 
@@ -516,23 +516,23 @@ The core result of this part can be summarized in one sentence: **the three valu
 
 **Reading Convention**: Definitions and axioms are conventions (they cannot be proved, only their consequences can be examined); theorems are necessary conclusions starting from the definitions and axioms (they must be proved); examples and remarks explain how the theorems land in practice. All mathematical expressions can be viewed directly in Word.
 
-# Chapter One　Introduction: The Expressive Limits of Set Language
+# Chapter One Introduction: The Expressive Limits of Set Language
 
-## 1.1　The Three Omitted Layers of Information
+## 1.1 The Three Omitted Layers of Information
 
-A mathematical set answers only one question to begin with: **does it belong**. "There is water in the cup" is written in set theory as $水 \in S$, which is precise, but it simultaneously discards three layers of information that everyday language naturally carries:
+A mathematical set answers only one question to begin with: **does it belong**. "There is water in the cup" is written in set theory as $water \in S$, which is precise, but it simultaneously discards three layers of information that everyday language naturally carries:
 
-1.　**Identity independence**—the cup does not become something else just because it holds water or coffee;
+1. **Identity independence**—the cup does not become something else just because it holds water or coffee;
 
-2.　**The structure between elements**—the handle, bottom, and lid depend on one another and each has its own position;
+2. **The structure between elements**—the handle, bottom, and lid depend on one another and each has its own position;
 
-3.　**Generation rule**—"cup" is not a hard-coded list, but a rule that can judge new members.
+3. **Generation rule**—"cup" is not a hard-coded list, but a rule that can judge new members.
 
 ![](./media/image19.png)
 
-**▍Figure 1-1　The ladder of expressiveness: each layer stacks an independent information dimension on top of the previous one. This part will prove that these three dimensions cannot be reduced to one another.**
+**▍Figure 1-1 The ladder of expressiveness: each layer stacks an independent information dimension on top of the previous one. This part will prove that these three dimensions cannot be reduced to one another.**
 
-## 1.2　The Axiom of Extensionality and Its Cost
+## 1.2 The Axiom of Extensionality and Its Cost
 
 +----------------------------------------------------------------------------------------------------------+
 | **▍Axiom 0 (Extensionality)**                                                                            |
@@ -543,7 +543,7 @@ A mathematical set answers only one question to begin with: **does it belong**. 
 +----------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
-| **▍Corollary 0.1　Replacement Means a Different Set**                                                                             |
+| **▍Corollary 0.1 Replacement Means a Different Set**                                                                             |
 |                                                                                                                                   |
 | Suppose $e_{1} \neq e_{2}$, $e_{1} \in A$, $e_{2} \notin A$, and $A' = (A \smallsetminus \{ e_{1}\}) \cup \{ e_{2}\}$. Then $A' \neq A$. |
 |                                                                                                                                   |
@@ -554,24 +554,24 @@ A mathematical set answers only one question to begin with: **does it belong**. 
 
 Corollary 0.1 is precisely the strict form of the phenomenon pointed out in Chapter Five: "pour out the water and replace it with coffee" **necessarily** produces another set in set theory. Then the referent "cup," which is still recognized as the same thing after its contents change, simply has no place to be accommodated within set theory. This is not a defect of set theory, but its design trade-off—the remainder of Chapter One will quantify this trade-off, and Chapter Two onward will add it back.
 
-## 1.3　The Methodology of This Part
+## 1.3 The Methodology of This Part
 
 We adopt the standard structured mathematical procedure: **Definition → Axiom → Theorem → Proof → Judgment Procedure**. Axioms are conventions, and their quality is examined by two criteria: (i) **consistency**—they do not derive a contradiction; (ii) **sufficiency**—they suffice to derive theorems that agree with everyday and engineering intuition. Every axiom in this part is used at least once in the subsequent chapters; there are no superfluous assumptions.
 
-# Chapter Two　The Axiomatization of Type Sets
+# Chapter Two The Axiomatization of Type Sets
 
-## 2.1　Domain of Discourse and Basic Symbols
+## 2.1 Domain of Discourse and Basic Symbols
 
 Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cup handle, app……). Let $\mathcal{P}(U)$ denote the power set of $U$, $\varnothing$ the empty set, and $|X|$ the cardinality of a set. $\mathbb{N}$ denotes the natural numbers.
 
 ![](./media/image20.png)
 
-**▍Figure 2-1　The four-tuple structure of a Type Set: each of the four components carries one layer of information omitted by set theory.**
+**▍Figure 2-1 The four-tuple structure of a Type Set: each of the four components carries one layer of information omitted by set theory.**
 
-## 2.2　Definition of a Type Set
+## 2.2 Definition of a Type Set
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Definition 2.1　Type Set (Form Set)**                                                                                                                     |
+| **▍Definition 2.1 Type Set (Form Set)**                                                                                                                     |
 |                                                                                                                                                              |
 | A **Type Set** is an ordered four-tuple                                                                                                                      |
 |                                                                                                                                                              |
@@ -579,27 +579,27 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 |                                                                                                                                                              |
 | where:                                                                                                                                                       |
 |                                                                                                                                                              |
-| 1.　$S \subseteq U$, $|S| < \infty$, is called the **carrier**—what it holds;                                                                                |
+| 1. $S \subseteq U$, $|S| < \infty$, is called the **carrier**—what it holds;                                                                                |
 |                                                                                                                                                              |
-| 2.　$\mathcal{I} \in I$ is the **identity token**, where $I$ is a token set unrelated to $\mathcal{P}(U)$—who it is;                                         |
+| 2. $\mathcal{I} \in I$ is the **identity token**, where $I$ is a token set unrelated to $\mathcal{P}(U)$—who it is;                                         |
 |                                                                                                                                                              |
-| 3.　$R \subseteq S \times S$ is the **composition relation**, a strict partial order on $S$ (irreflexive, transitive); $q\, R\, p$ is read as "$q$ depends on $p$"—how it is composed; |
+| 3. $R \subseteq S \times S$ is the **composition relation**, a strict partial order on $S$ (irreflexive, transitive); $q\, R\, p$ is read as "$q$ depends on $p$"—how it is composed; |
 |                                                                                                                                                              |
-| 4.　$\Phi:U \rightarrow \{ 0,1\}$ is the **generative criterion**, satisfying $S \subseteq \Phi^{- 1}(1)$—how it grows new members.                          |
+| 4. $\Phi:U \rightarrow \{ 0,1\}$ is the **generative criterion**, satisfying $S \subseteq \Phi^{- 1}(1)$—how it grows new members.                          |
 |                                                                                                                                                              |
 | The four projection functions are denoted $\pi_{S},\pi_{\mathcal{I}},\pi_{R},\pi_{\Phi}$.                                                                     |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Remark 2.2　Why a Four-Tuple, and Not Three Properties Added onto a Set**                                                                                                                                    |
+| **▍Remark 2.2 Why a Four-Tuple, and Not Three Properties Added onto a Set**                                                                                                                                    |
 |                                                                                                                                                                                                                 |
 | If identity $\mathcal{I}$ were defined as a function of $S$, Theorem 2 would prove that it necessarily degenerates into a constant. Hence identity must appear alongside $S$ as an **independent primitive term**, not as a derived quantity. This is precisely the key design of Definition 2.1, and the rigorous form of Chapter Five's "Container = Set + unchanging identity." |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## 2.3　The Four Axioms
+## 2.3 The Four Axioms
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Axiom A1　Identity Independence**                                                                                                                                                                |
+| **▍Axiom A1 Identity Independence**                                                                                                                                                                |
 |                                                                                                                                                                                                     |
 | Define the **fill** and **empty** operators: for $e \in U \smallsetminus S$ and $e \in S$,                                                                                                          |
 |                                                                                                                                                                                                     |
@@ -613,19 +613,19 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Axiom A2　Structural Dependence**                                                                                                                      |
+| **▍Axiom A2 Structural Dependence**                                                                                                                      |
 |                                                                                                                                                           |
 | There exist a **survival criterion** $\sigma:\mathcal{P}(S) \rightarrow \{ 0,1\}$ and a **capability function** $\kappa:\mathcal{P}(S) \rightarrow \mathcal{P}(C)$ ($C$ being the capability domain), satisfying: |
 |                                                                                                                                                           |
-| (A2a)　$\sigma$ is monotone: $X \subseteq Y$ and $\sigma(X) = 1 \Rightarrow \sigma(Y) = 1$;                                                                |
+| (A2a) $\sigma$ is monotone: $X \subseteq Y$ and $\sigma(X) = 1 \Rightarrow \sigma(Y) = 1$;                                                                |
 |                                                                                                                                                           |
-| (A2b)　$\kappa$ is monotone: $X \subseteq Y \Rightarrow \kappa(X) \subseteq \kappa(Y)$;                                                                   |
+| (A2b) $\kappa$ is monotone: $X \subseteq Y \Rightarrow \kappa(X) \subseteq \kappa(Y)$;                                                                   |
 |                                                                                                                                                           |
-| (A2c)　Completeness: $\sigma(S) = 1$.                                                                                                                     |
+| (A2c) Completeness: $\sigma(S) = 1$.                                                                                                                     |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------------+
-| **▍Axiom A3　Generativity**                                                                         |
+| **▍Axiom A3 Generativity**                                                                         |
 |                                                                                                    |
 | Category membership is determined by a criterion, not by enumeration:                              |
 |                                                                                                    |
@@ -635,15 +635,15 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 +----------------------------------------------------------------------------------------------------+
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Axiom A4　Separability**                                                                                                                                                                      |
+| **▍Axiom A4 Separability**                                                                                                                                                                      |
 |                                                                                                                                                                                                  |
 | $\pi_{\mathcal{I}}$, $\sigma$, $\kappa$, $\Phi$ are mutually independent: any one component can vary without changing the others. This axiom guarantees that the three value-adds can **exist alone or be stacked**—this is the formalization of original Chapter 5.6's "the three value-adds are independent of one another." |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## 2.4　Degeneration and Conservative Extension
+## 2.4 Degeneration and Conservative Extension
 
 +-------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Definition 2.3　Degeneration**                                                                                                         |
+| **▍Definition 2.3 Degeneration**                                                                                                         |
 |                                                                                                                                           |
 | $$\delta(S): = \langle S,\ \lceil S\rceil,\ \varnothing,\ \mathbb{1}\rangle$$                                                             |
 |                                                                                                                                           |
@@ -651,7 +651,7 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 +-------------------------------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 1　Conservative Extension Theorem**                                                                                                      |
+| **▍Theorem 1 Conservative Extension Theorem**                                                                                                      |
 |                                                                                                                                                     |
 | (i) $\rho(\delta(S)) = S$, where $\rho: = \pi_{S}$ is the forgetful function;                                                                       |
 |                                                                                                                                                     |
@@ -663,23 +663,23 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 +-----------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Corollary 1.1　Compatibility with Set Theory**                                                                                                                                                                        |
+| **▍Corollary 1.1 Compatibility with Set Theory**                                                                                                                                                                        |
 |                                                                                                                                                                                                                          |
 | Type Set theory is a **conservative extension** of naive set theory: empty out $R$, set $\Phi$ to the identically-true criterion, and bind $\mathcal{I}$ to $S$, and the Type Set degenerates back into an ordinary set. Hence this part does not conflict with any existing result of set theory; it systematically adds back the three omitted layers of information only where set theory "assumes the least." |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-# Chapter Three　The Container Layer: Identity Independence
+# Chapter Three The Container Layer: Identity Independence
 
-## 3.1　Core Intuition
+## 3.1 Core Intuition
 
 ![](./media/image21.png)
 
-**▍Figure 3-1　Left: in set theory, replacing the contents necessarily yields another set (Corollary 0.1). Right: a container allows the contents to vary arbitrarily within Sigma(𝔽), while the identity ℐ remains unchanged.**
+**▍Figure 3-1 Left: in set theory, replacing the contents necessarily yields another set (Corollary 0.1). Right: a container allows the contents to vary arbitrarily within Sigma(𝔽), while the identity ℐ remains unchanged.**
 
-## 3.2　Substitution Operator and Identity Equivalence
+## 3.2 Substitution Operator and Identity Equivalence
 
 +-----------------------------------------------------------------------------------------------+
-| **▍Definition 3.1　Substitution Operator**                                                    |
+| **▍Definition 3.1 Substitution Operator**                                                    |
 |                                                                                               |
 | $$\mathbb{F}{\lbrack e}_{1} \mapsto e_{2}\rbrack: = (\mathbb{F} \ominus e_{1}) \oplus e_{2}$$ |
 |                                                                                               |
@@ -687,13 +687,13 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 +-----------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------------+
-| **▍Definition 3.2　Identity Equivalence Relation**                                                                          |
+| **▍Definition 3.2 Identity Equivalence Relation**                                                                          |
 |                                                                                                                             |
 | $$\mathbb{F} \sim_{\text{id}}\mathbb{G}\  \Leftrightarrow \ \pi_{\mathcal{I}}(\mathbb{F}) = \pi_{\mathcal{I}}(\mathbb{G})$$ |
 +-----------------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 2　The Non-definability of Identity**                                                                                                                 |
+| **▍Theorem 2 The Non-definability of Identity**                                                                                                                 |
 |                                                                                                                                                                 |
 | Suppose $|U| \geq 2$. If a function $\text{id}:\mathcal{P}(U) \rightarrow I$ simultaneously satisfies                                                           |
 |                                                                                                                                                                 |
@@ -713,7 +713,7 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Corollary 2.1　Identity Must Be a Primitive Term**                                                                                                                          |
+| **▍Corollary 2.1 Identity Must Be a Primitive Term**                                                                                                                          |
 |                                                                                                                                                                                |
 | Any attempt to define container identity as "a function of its set of contents" will fail: it either violates fill/empty invariance (and then the cup is no longer the same cup), or it is a constant (and then all containers share the same identity, and the concept of a container collapses). |
 |                                                                                                                                                                                |
@@ -721,7 +721,7 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 3　Identity Equivalence Is an Equivalence Relation**                                                                                                                                  |
+| **▍Theorem 3 Identity Equivalence Is an Equivalence Relation**                                                                                                                                  |
 |                                                                                                                                                                                                  |
 | $\sim_{\text{id}}$ is reflexive, symmetric, and transitive.                                                                                                                                      |
 |                                                                                                                                                                                                  |
@@ -729,7 +729,7 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 4　Substitution Invariance**                                                                                                                                                                                                                                                                                                                    |
+| **▍Theorem 4 Substitution Invariance**                                                                                                                                                                                                                                                                                                                    |
 |                                                                                                                                                                                                                                                                                                                                                            |
 | Under Axiom A1, for any $e_{1} \in S$, $e_{2} \in U \smallsetminus S$:                                                                                                                                                                                                                                                                                     |
 |                                                                                                                                                                                                                                                                                                                                                            |
@@ -739,15 +739,15 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Remark 3.3　Contrast with Corollary 0.1**                                                                                                                                                                                                                                                                                                                    |
+| **▍Remark 3.3 Contrast with Corollary 0.1**                                                                                                                                                                                                                                                                                                                    |
 |                                                                                                                                                                                                                                                                                                                                                                 |
 | Set theory: ${A\lbrack e}_{1} \mapsto e_{2}\rbrack \neq A$ (necessarily). Type Set theory: $\mathbb{F}{\lbrack e}_{1} \mapsto e_{2}\rbrack \sim_{\text{id}}\mathbb{F}$ (guaranteed by axiom). The two do not conflict—the latter speaks about $\mathcal{I}$, the former about $S$. **This is precisely the mathematical meaning of "levels"**: when Chapter Five says "the cup and the water are things at two levels," here it means that $\pi_{\mathcal{I}}$ and $\pi_{S}$ are two different projections. |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## 3.3　Contents Space
+## 3.3 Contents Space
 
 +-----------------------------------------------------------------------------------------------------------------------------+
-| **▍Definition 3.4　Contents Space**                                                                                         |
+| **▍Definition 3.4 Contents Space**                                                                                         |
 |                                                                                                                             |
 | $$\Sigma(\mathbb{F}): = \{ S^{'} \subseteq \Phi^{- 1}(1):\ \mathbb{F} \ominus S \oplus S^{'} \sim_{\text{id}}\mathbb{F}\}$$ |
 |                                                                                                                             |
@@ -755,7 +755,7 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 +-----------------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------+
-| **▍Proposition 3.5　The Size of the Contents Space**                                                                  |
+| **▍Proposition 3.5 The Size of the Contents Space**                                                                  |
 |                                                                                                                       |
 | If $|\Phi^{- 1}(1)| = m$, then $|\Sigma(\mathbb{F})| = 2^{m}$.                                                        |
 |                                                                                                                       |
@@ -764,9 +764,9 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 
 ![](./media/image22.png)
 
-**▍Figure 3-2　For a cup that can hold three kinds of liquid, its contents space is a Boolean lattice of 8 states; filling or emptying along any path in the lattice, the identity ℐ remains unchanged throughout (Theorem 2).**
+**▍Figure 3-2 For a cup that can hold three kinds of liquid, its contents space is a Boolean lattice of 8 states; filling or emptying along any path in the lattice, the identity ℐ remains unchanged throughout (Theorem 2).**
 
-## 3.4　Engineering Correspondence
+## 3.4 Engineering Correspondence
 
   **Type Logic Concept**                               **Relational Database Correspondence**      **Object-Oriented Correspondence**
   ---------------------------------------------------- ------------------------------------------- ---------------------------------------
@@ -777,18 +777,18 @@ Fix a domain of discourse $U$ (all individuals that may occur: water, coffee, cu
 
 In database design, "the primary key does not change because the foreign key contents change" is an engineering discipline; Theorem 2 explains why it **must** be a discipline—because if identity could be derived from the contents, then any content update would create a "new" container, and all references would fail at once.
 
-# Chapter Four　The Structural Layer (SOM): Composition Relations
+# Chapter Four The Structural Layer (SOM): Composition Relations
 
-## 4.1　From Juxtaposed Elements to Structured Parts
+## 4.1 From Juxtaposed Elements to Structured Parts
 
 ![](./media/image23.png)
 
-**▍Figure 4-1　SOM: the composition relation R is a directed graph of "who depends on whom." In set theory {lid, handle, bottom, body} is independent of order; in SOM, remove the bottom and the structure collapses.**
+**▍Figure 4-1 SOM: the composition relation R is a directed graph of "who depends on whom." In set theory {lid, handle, bottom, body} is independent of order; in SOM, remove the bottom and the structure collapses.**
 
-## 4.2　Formal Tools
+## 4.2 Formal Tools
 
 +----------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Definition 4.1　Removal Operator and Transitive Closure**                                                                           |
+| **▍Definition 4.1 Removal Operator and Transitive Closure**                                                                           |
 |                                                                                                                                        |
 | For $p \in S$, the **removal operator** is defined as                                                                                  |
 |                                                                                                                                        |
@@ -802,7 +802,7 @@ In database design, "the primary key does not change because the foreign key con
 +----------------------------------------------------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Definition 4.2　Three-Grade Part Classification**                                                                                                                 |
+| **▍Definition 4.2 Three-Grade Part Classification**                                                                                                                 |
 |                                                                                                                                                                      |
 | Under $\sigma$ and $\kappa$ of Axiom A2, for $p \in S$:                                                                                                              |
 |                                                                                                                                                                      |
@@ -814,27 +814,27 @@ In database design, "the primary key does not change because the foreign key con
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +--------------------------------------------------------------------------------------+
-| **▍Lemma A　Monotonicity of the Survival Criterion**                                 |
+| **▍Lemma A Monotonicity of the Survival Criterion**                                 |
 |                                                                                      |
 | $X \subseteq Y \subseteq S$ and $\sigma(X) = 1 \Rightarrow \sigma(Y) = 1$. (i.e. A2a) |
 +--------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------+
-| **▍Lemma B　Monotonicity of the Capability Function**                 |
+| **▍Lemma B Monotonicity of the Capability Function**                 |
 |                                                                       |
 | $X \subseteq Y \Rightarrow \kappa(X) \subseteq \kappa(Y)$. (i.e. A2b) |
 +-----------------------------------------------------------------------+
 
-## 4.3　The Three-way Partition Theorem
+## 4.3 The Three-way Partition Theorem
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 5　Three-way Partition**                                                                                                                                                                                                                                                                                                                                        |
+| **▍Theorem 5 Three-way Partition**                                                                                                                                                                                                                                                                                                                                        |
 |                                                                                                                                                                                                                                                                                                                                                                            |
 | $\{ N(\mathbb{F}),D(\mathbb{F}),T(\mathbb{F})\}$ constitutes a partition of $S$:                                                                                                                                                                                                                                                                                           |
 |                                                                                                                                                                                                                                                                                                                                                                            |
-| (i) **Completeness**　$N \cup D \cup T = S$;                                                                                                                                                                                                                                                                                                                               |
+| (i) **Completeness** $N \cup D \cup T = S$;                                                                                                                                                                                                                                                                                                                               |
 |                                                                                                                                                                                                                                                                                                                                                                            |
-| (ii) **Mutual exclusivity**　the three are pairwise disjoint.                                                                                                                                                                                                                                                                                                             |
+| (ii) **Mutual exclusivity** the three are pairwise disjoint.                                                                                                                                                                                                                                                                                                             |
 |                                                                                                                                                                                                                                                                                                                                                                            |
 | **Proof**:                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                                                                                                                                                                                                                                                                                                            |
@@ -845,12 +845,12 @@ In database design, "the primary key does not change because the foreign key con
 
 ![](./media/image24.png)
 
-**▍Figure 4-2　The decision tree and partition structure of the three-grade classification (Theorem 5): every part falls into exactly one grade, with no middle ground.**
+**▍Figure 4-2 The decision tree and partition structure of the three-grade classification (Theorem 5): every part falls into exactly one grade, with no middle ground.**
 
-## 4.4　Collapse Propagation
+## 4.4 Collapse Propagation
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 6　Collapse Propagation**                                                                                                                                                                                                                                                                                                                  |
+| **▍Theorem 6 Collapse Propagation**                                                                                                                                                                                                                                                                                                                  |
 |                                                                                                                                                                                                                                                                                                                                                       |
 | If $p \in N(\mathbb{F})$, then for any $A$ satisfying $\{ p\} \subseteq A \subseteq S$, we have                                                                                                                                                                                                                                                        |
 |                                                                                                                                                                                                                                                                                                                                                       |
@@ -860,19 +860,19 @@ In database design, "the primary key does not change because the foreign key con
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Corollary 6.1　Chained Failure Along the Dependency Cone**                                                                                                                                                 |
+| **▍Corollary 6.1 Chained Failure Along the Dependency Cone**                                                                                                                                                 |
 |                                                                                                                                                                                                               |
 | If $q \in \uparrow p$ ($q$ depends on $p$) and $p \in N$, then under the configuration $S \smallsetminus \{ p\}$, $q$ is no longer usable. This is precisely the strict form of the original chapter's observation "remove the bottom, and the cup collapses": **failure is not local; it propagates monotonically along the dependency cone** (Figure 4-3). |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ![](./media/image25.png)
 
-**▍Figure 4-3　Collapse propagation (Theorem 6): removing one necessary part p causes the entire dependency cone ↑p to fail as well.**
+**▍Figure 4-3 Collapse propagation (Theorem 6): removing one necessary part p causes the entire dependency cone ↑p to fail as well.**
 
-## 4.5　How Much Information Does Structure Carry?
+## 4.5 How Much Information Does Structure Carry?
 
 +--------------------------------------------------------------------------------------+
-| **▍Theorem 7　Structural Information Content**                                       |
+| **▍Theorem 7 Structural Information Content**                                       |
 |                                                                                      |
 | Let $|S| = n$. Let $P(n)$ be the number of strict partial orders on an $n$-element set (i.e. the number of possible values of $R$). Then: |
 |                                                                                      |
@@ -895,9 +895,9 @@ In database design, "the primary key does not change because the foreign key con
 
 ![](./media/image26.png)
 
-**▍Figure 4-4　Structural information content grows super-exponentially with the number of parts: a cup with four parts already carries nearly 8 bits of structural information. This explains why manually enumerating structures is infeasible and why they must be expressed in relational form.**
+**▍Figure 4-4 Structural information content grows super-exponentially with the number of parts: a cup with four parts already carries nearly 8 bits of structural information. This explains why manually enumerating structures is infeasible and why they must be expressed in relational form.**
 
-## 4.6　Engineering Significance
+## 4.6 Engineering Significance
 
   **Grade**                 **Judgment Condition**                       **Engineering Correspondence**   **Example in a Cup**
   ------------------------- -------------------------------------------- -------------------------------- ------------------
@@ -905,18 +905,18 @@ In database design, "the primary key does not change because the foreign key con
   **Degraded part** $D$     $\sigma = 1$ and $\kappa$ shrinks            Optional functional part         Handle
   **Non-essential part** $T$   $\sigma = 1$ and $\kappa$ unchanged       Decorative / consumable part     Carving on the body
 
-# Chapter Five　The Abstraction Layer: Generative Criteria
+# Chapter Five The Abstraction Layer: Generative Criteria
 
-## 5.1　From Closed List to Open Rule
+## 5.1 From Closed List to Open Rule
 
 ![](./media/image27.png)
 
-**▍Figure 5-1　A closed list relies on enumeration; an open category relies on a rule: membership is decided on the spot by the intersection criterion ⋂(T), independently of historical enumeration (Theorem 9).**
+**▍Figure 5-1 A closed list relies on enumeration; an open category relies on a rule: membership is decided on the spot by the intersection criterion ⋂(T), independently of historical enumeration (Theorem 9).**
 
-## 5.2　Formal Definition
+## 5.2 Formal Definition
 
 +-----------------------------------------------------------------------------------------------------------+
-| **▍Definition 5.1　Feature Set, Criterion, and Category Extension**                                       |
+| **▍Definition 5.1 Feature Set, Criterion, and Category Extension**                                       |
 |                                                                                                           |
 | The **feature set** of a category $T$ is a finite set $F(T) = \{ f_{1},\ldots{,f}_{n}\}$, where each $f_{i}:U \rightarrow \{ 0,1\}$. |
 |                                                                                                           |
@@ -929,10 +929,10 @@ In database design, "the primary key does not change because the foreign key con
 | $${\lbrack T\rbrack}_{F}: = \{ x \in U:\ \bigcap(T)(x) = 1\}$$                                            |
 +-----------------------------------------------------------------------------------------------------------+
 
-## 5.3　Monotonicity: The More Conditions, the Smaller the Category
+## 5.3 Monotonicity: The More Conditions, the Smaller the Category
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 8　Feature Antitonicity**                                                                                                                                                        |
+| **▍Theorem 8 Feature Antitonicity**                                                                                                                                                        |
 |                                                                                                                                                                                             |
 | If $F_{1} \subseteq F_{2}$, then ${\lbrack T\rbrack}_{F_{2}} \subseteq {\lbrack T\rbrack}_{F_{1}}$.                                                                                        |
 |                                                                                                                                                                                             |
@@ -941,12 +941,12 @@ In database design, "the primary key does not change because the foreign key con
 
 ![](./media/image28.png)
 
-**▍Figure 5-2　The feature lattice and the category lattice run in opposite directions (Theorem 8): on the left, adding features moves upward; on the right, shrinking the category moves downward. The mapping F ↦ \[T\]\_F is an order-reversing correspondence between the two lattices.**
+**▍Figure 5-2 The feature lattice and the category lattice run in opposite directions (Theorem 8): on the left, adding features moves upward; on the right, shrinking the category moves downward. The mapping F ↦ \[T\]\_F is an order-reversing correspondence between the two lattices.**
 
-## 5.4　Openness
+## 5.4 Openness
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 9　Openness**                                                                                                                               |
+| **▍Theorem 9 Openness**                                                                                                                               |
 |                                                                                                                                                        |
 | Suppose $U$ is infinite, and there exists a feature $f$ such that $f^{- 1}(1)$ is infinite. Then for any finite enumeration $L \subseteq f^{- 1}(1)$:   |
 |                                                                                                                                                        |
@@ -958,21 +958,21 @@ In database design, "the primary key does not change because the foreign key con
 +--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Corollary 9.1　Automatic Determination of New Members**                                                                                                                                                |
+| **▍Corollary 9.1 Automatic Determination of New Members**                                                                                                                                                |
 |                                                                                                                                                                                                           |
 | For any $x \in U$ (whether or not it has ever appeared in the training data, design documents, or historical lists), membership is determined by $\bigcap(T)(x)$ in $O(n)$ time ($n = |F(T)|$). This is the formal content of the original chapter's "as long as it conforms to the rule, even a brand-new design automatically belongs to it." |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## 5.5　Precise Characterization of Misclassification
+## 5.5 Precise Characterization of Misclassification
 
 +---------------------------------------------------------------------------------------------------+
-| **▍Definition 5.2　Complete Feature Set**                                                         |
+| **▍Definition 5.2 Complete Feature Set**                                                         |
 |                                                                                                   |
 | Suppose there exists a target category $T^{*}$ whose true feature set is $F^{*}$. A user-proposed $F \subseteq F^{*}$ is called **incomplete**. |
 +---------------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 10　Misclassification Characterization**                                                                                                                                                                                                                              |
+| **▍Theorem 10 Misclassification Characterization**                                                                                                                                                                                                                              |
 |                                                                                                                                                                                                                                                                                  |
 | Suppose $F \subseteq F^{*}$. Then:                                                                                                                                                                                                                                               |
 |                                                                                                                                                                                                                                                                                  |
@@ -991,10 +991,10 @@ In database design, "the primary key does not change because the foreign key con
 
 ![](./media/image29.png)
 
-**▍Figure 5-3　The geometry of the false-positive set (Theorem 10): an incomplete feature set necessarily encloses some non-members; the process of adding features is the process of shrinking \[T\]\_F.**
+**▍Figure 5-3 The geometry of the false-positive set (Theorem 10): an incomplete feature set necessarily encloses some non-members; the process of adding features is the process of shrinking \[T\]\_F.**
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Corollary 10.1　Decidability of Boundary Cases**                                                                                                                                      |
+| **▍Corollary 10.1 Decidability of Boundary Cases**                                                                                                                                      |
 |                                                                                                                                                                                          |
 | Disputes such as "is a bowl a cup" or "is a straw cup a cup" are, by Theorem 10, completely reduced to **disputes about the feature set**: if $F$ does not include "used for drinking," then the bowl $\in {\lbrack T\rbrack}_{F}$; if it does, the bowl $\notin {\lbrack T\rbrack}_{F}$. |
 |                                                                                                                                                                                          |
@@ -1008,22 +1008,22 @@ In database design, "the primary key does not change because the foreign key con
   **Straw cup**          1                             1                                            1                               $$\in {\lbrack T\rbrack}_{F}$$
   **Syringe**            1                             1                                            0                               Depends on whether $f_{3}$ $\in F$
 
-## 5.6　Lattice Structure
+## 5.6 Lattice Structure
 
 +--------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Proposition 5.3　Order-Reversing Embedding**                                                                                      |
+| **▍Proposition 5.3 Order-Reversing Embedding**                                                                                      |
 |                                                                                                                                      |
 | The mapping $F \mapsto {\lbrack T\rbrack}_{F}$ is an order-reversing embedding from the Boolean lattice $(\mathcal{P}{(F}^{*}), \subseteq )$ into $(\mathcal{P}(U), \supseteq )$. |
 |                                                                                                                                      |
 | **Proof**: Order-reversal is Theorem 8. The embedding property follows because ${\lbrack T\rbrack}_{F}$ is uniquely determined as a function of $F$.∎ |
 +--------------------------------------------------------------------------------------------------------------------------------------+
 
-# Chapter Six　Joint Three-Layer Determination
+# Chapter Six Joint Three-Layer Determination
 
-## 6.1　Determination Operators
+## 6.1 Determination Operators
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Definition 6.1　Three-Layer Determination Operators**                                                                                                                    |
+| **▍Definition 6.1 Three-Layer Determination Operators**                                                                                                                    |
 |                                                                                                                                                                             |
 | $$\kappa_{c}(\mathbb{F}) = 1\  \Leftrightarrow \ \exists e_{1} \in S,\ \exists e_{2} \notin S:\ \mathbb{F}{\lbrack e}_{1} \mapsto e_{2}\rbrack \sim_{\text{id}}\mathbb{F}$$ |
 |                                                                                                                                                                             |
@@ -1036,12 +1036,12 @@ In database design, "the primary key does not change because the foreign key con
 
 ![](./media/image30.png)
 
-**▍Figure 6-1　Three gates: each operates independently, and failing any one excludes the object.**
+**▍Figure 6-1 Three gates: each operates independently, and failing any one excludes the object.**
 
-## 6.2　Minimal Sufficiency
+## 6.2 Minimal Sufficiency
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 11　Minimal Sufficiency**                                                                                                                                                                               |
+| **▍Theorem 11 Minimal Sufficiency**                                                                                                                                                                               |
 |                                                                                                                                                                                                                    |
 | Let the target category be $M^{*}$ =［smartphone］, with complete feature set                                                                                                                                       |
 |                                                                                                                                                                                                                    |
@@ -1072,19 +1072,19 @@ In database design, "the primary key does not change because the foreign key con
 
 ![](./media/image31.png)
 
-**▍Figure 6-2　The minimality witness matrix (Theorem 11): every row (a determination subset) has at least one "fish that slips through the net."**
+**▍Figure 6-2 The minimality witness matrix (Theorem 11): every row (a determination subset) has at least one "fish that slips through the net."**
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Remark 6.2　What This Theorem Is Saying**                                                                                                                                                                                                                                         |
+| **▍Remark 6.2 What This Theorem Is Saying**                                                                                                                                                                                                                                         |
 |                                                                                                                                                                                                                                                                                      |
 | The original chapter said "none of the three layers of judgment can be omitted: looking only at the container layer, a tablet is also a phone; looking only at the composition layer, a calculator is also a phone"—Theorem 11 turns this statement into a testable mathematical proposition: **sufficiency belongs to the entire triple, not to any proper subset**. Note the key point of item (4): if the abstraction layer uses an incomplete feature set, it too will leak. This brings "the responsibility of feature engineering" into the framework as well (Theorem 10). |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## 6.3　Complete Case: Smartphone
+## 6.3 Complete Case: Smartphone
 
 ![](./media/image32.png)
 
-**▍Figure 6-3　The joint three-layer determination of a smartphone: all three gates are passed, and each approximating object is blocked at exactly one gate.**
+**▍Figure 6-3 The joint three-layer determination of a smartphone: all three gates are passed, and each approximating object is blocked at exactly one gate.**
 
   **Layer**                **Operator**       **Value of the object** $s^{*}$                                            **Determination**
   ------------------------ ------------------ --------------------------------------------------------------------------- ----------
@@ -1093,10 +1093,10 @@ In database design, "the primary key does not change because the foreign key con
   Abstraction layer        $$\kappa_{a}$$     Cellular 1・general computing 1・one-hand use 1                           1
   Joint                    $$J$$              $$1 \land 1 \land 1$$                                                       **1**
 
-## 6.4　Determination Complexity
+## 6.4 Determination Complexity
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Theorem 12　Determination Complexity**                                                                                                                                                                                                                                               |
+| **▍Theorem 12 Determination Complexity**                                                                                                                                                                                                                                               |
 |                                                                                                                                                                                                                                                                                         |
 | Let $|S| = n$, $|F| = m$. Then the determination times of $\kappa_{c}$, $\kappa_{s}$, $\kappa_{a}$ are respectively                                                                                                                                                                      |
 |                                                                                                                                                                                                                                                                                         |
@@ -1107,10 +1107,10 @@ In database design, "the primary key does not change because the foreign key con
 
 ![](./media/image33.png)
 
-**▍Figure 6-4　The computational cost of three-layer determination: the structural layer O(n\^3) is the main bottleneck, which also explains why in engineering practice manually maintained BOM/SOM are often used in place of automatic derivation.**
+**▍Figure 6-4 The computational cost of three-layer determination: the structural layer O(n\^3) is the main bottleneck, which also explains why in engineering practice manually maintained BOM/SOM are often used in place of automatic derivation.**
 
 +------------------------------------------------------------+
-| **▍Algorithm 6.3　Joint Three-Layer Determination (pseudo-code)** |
+| **▍Algorithm 6.3 Joint Three-Layer Determination (pseudo-code)** |
 |                                                            |
 | INPUT : form set F = \<S, I, R, Phi\>; feature set F\_T    |
 |                                                            |
@@ -1139,11 +1139,11 @@ In database design, "the primary key does not change because the foreign key con
 | END                                                        |
 +------------------------------------------------------------+
 
-# Chapter Seven　Formalized Solutions to the Judgment Examples
+# Chapter Seven Formalized Solutions to the Judgment Examples
 
 This chapter rewrites the six judgment exercises from original Chapter 5.5.6 as derivations executed step by step according to the theorems and axioms. The solution to each question can be mechanically redone by Algorithm 6.3—this is precisely the value of Type Logic as a cognitive tool: **the answers are not guessed by intuition, but obtained by going through the procedure**.
 
-## 7.1　Question One: Is a refrigerator a container?
+## 7.1 Question One: Is a refrigerator a container?
 
 +----------------------------------------------------------------+
 | **▍Question**                                                  |
@@ -1152,20 +1152,20 @@ This chapter rewrites the six judgment exercises from original Chapter 5.5.6 as 
 +----------------------------------------------------------------+
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Answer　(Container Layer)**                                                                                                                                   |
+| **▍Answer (Container Layer)**                                                                                                                                   |
 |                                                                                                                                                                  |
-| **Step 1**　Confirm the replaceable contents: $\Phi^{- 1}(1)$ includes milk, vegetables, food containers……, $|\Phi^{- 1}(1)| = m$.                              |
+| **Step 1** Confirm the replaceable contents: $\Phi^{- 1}(1)$ includes milk, vegetables, food containers……, $|\Phi^{- 1}(1)| = m$.                              |
 |                                                                                                                                                                  |
-| **Step 2**　Perform the replacement: $\mathbb{F}\lbrack 牛奶 \mapsto 蔬菜\rbrack$ (Definition 3.1).                                                             |
+| **Step 2** Perform the replacement: $\mathbb{F}\lbrack milk \mapsto vegetables\rbrack$ (Definition 3.1).                                                             |
 |                                                                                                                                                                  |
-| **Step 3**　Check identity: by Theorem 4, $\mathbb{F}\lbrack\cdots\rbrack \sim_{\text{id}}\mathbb{F}$.                                                           |
+| **Step 3** Check identity: by Theorem 4, $\mathbb{F}\lbrack\cdots\rbrack \sim_{\text{id}}\mathbb{F}$.                                                           |
 |                                                                                                                                                                  |
-| **Step 4**　Conclusion: $\kappa_{c} = 1$; the refrigerator is a container. And the size of the contents space is $|\Sigma| = 2^{m}$ (Proposition 3.5).            |
+| **Step 4** Conclusion: $\kappa_{c} = 1$; the refrigerator is a container. And the size of the contents space is $|\Sigma| = 2^{m}$ (Proposition 3.5).            |
 |                                                                                                                                                                  |
 | **Extension**: if the compressor is removed, this is not a container-layer question—the compressor $\in N(\mathbb{F})$ (SOM layer), and by Theorem 5 it is a necessary part, with $\sigma = 0$ after removal. **The two questions belong to two different layers and must not be conflated**. |
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## 7.2　Question Two: What grade of part is a car's steering wheel?
+## 7.2 Question Two: What grade of part is a car's steering wheel?
 
 +-------------------------------------------------------------------------+
 | **▍Question**                                                           |
@@ -1174,40 +1174,40 @@ This chapter rewrites the six judgment exercises from original Chapter 5.5.6 as 
 +-------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Answer　(SOM Layer)**                                                                                                                                                                                                                |
+| **▍Answer (SOM Layer)**                                                                                                                                                                                                                |
 |                                                                                                                                                                                                                                         |
-| **Step 1**　Construct $S \smallsetminus \{ 方向盤\}$ (Definition 4.1).                                                                                                                                                                  |
+| **Step 1** Construct $S \smallsetminus \{ steering wheel\}$ (Definition 4.1).                                                                                                                                                                  |
 |                                                                                                                                                                                                                                         |
-| **Step 2**　Compute $\sigma$: the body, engine, and wheels are still present, the whole survives, $\sigma = 1$. Hence the steering wheel $\notin N$.                                                                                    |
+| **Step 2** Compute $\sigma$: the body, engine, and wheels are still present, the whole survives, $\sigma = 1$. Hence the steering wheel $\notin N$.                                                                                    |
 |                                                                                                                                                                                                                                         |
-| **Step 3**　Compute $\kappa$: the capability set $C$ includes "steering control"; $\kappa(S)$ has $c_{轉向}$, while $\kappa(S \smallsetminus \{ 方向盤\})$ does not (the monotonicity of Lemma B guarantees it only decreases, never increases). Hence $\kappa$ is a proper inclusion, $\kappa(S \smallsetminus \{ p\}) \subsetneq \kappa(S)$. |
+| **Step 3** Compute $\kappa$: the capability set $C$ includes "steering control"; $\kappa(S)$ has $c_{steering}$, while $\kappa(S \smallsetminus \{ steering wheel\})$ does not (the monotonicity of Lemma B guarantees it only decreases, never increases). Hence $\kappa$ is a proper inclusion, $\kappa(S \smallsetminus \{ p\}) \subsetneq \kappa(S)$. |
 |                                                                                                                                                                                                                                         |
-| **Step 4**　By Definition 4.2: the steering wheel $\in D(\mathbb{F})$ (functionally degraded part).                                                                                                                                     |
+| **Step 4** By Definition 4.2: the steering wheel $\in D(\mathbb{F})$ (functionally degraded part).                                                                                                                                     |
 |                                                                                                                                                                                                                                         |
 | **Contrast**: the engine $\in N$ ($\sigma = 0$ after removal); the floor mat $\in T$ ($\kappa$ unchanged). The three-way partition is guaranteed by Theorem 5 to have exactly one solution.                                           |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## 7.3　Question Three: Does a kettle belong to ［cup］?
+## 7.3 Question Three: Does a kettle belong to ［cup］?
 
 +--------------------------------------------------------------------------------------------------------------+
 | **▍Question**                                                                                                |
 |                                                                                                              |
-| $F(杯子) = \{ f_{1}能裝液體,f_{2}能被手持喝\}$. Does a sports bottle (750 ml, with a straw opening) $\in \lbrack 杯子\rbrack$? |
+| $F(cup) = \{ f_{1}holds liquid,f_{2}can be drunk by hand\}$. Does a sports bottle (750 ml, with a straw opening) $\in [cup]$? |
 +--------------------------------------------------------------------------------------------------------------+
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Answer　(Abstraction Layer)**                                                                                                                                                                                                                |
+| **▍Answer (Abstraction Layer)**                                                                                                                                                                                                                |
 |                                                                                                                                                                                                                                                 |
-| **Step 1**　Sports bottle: $f_{1} = 1$, $f_{2} = 1$ (hand-held drinking through the straw opening). By Definition 5.1, $\bigcap(T)(x) = 1 \land 1 = 1$, so $\in \lbrack 杯子\rbrack$.                                                          |
+| **Step 1** Sports bottle: $f_{1} = 1$, $f_{2} = 1$ (hand-held drinking through the straw opening). By Definition 5.1, $\bigcap(T)(x) = 1 \land 1 = 1$, so $\in [cup]$.                                                          |
 |                                                                                                                                                                                                                                                 |
-| **Step 2**　Thermos (2 L, must be poured out): $f_{1} = 1$, $f_{2} = 0$, so $\notin \lbrack 杯子\rbrack$.                                                                                                                                       |
+| **Step 2** Thermos (2 L, must be poured out): $f_{1} = 1$, $f_{2} = 0$, so $\notin [cup]$.                                                                                                                                       |
 |                                                                                                                                                                                                                                                 |
-| **Step 3**　But the thermos $\in \lbrack 容器\rbrack$ (container layer $\kappa_{c} = 1$).                                                                                                                                                       |
+| **Step 3** But the thermos $\in [container]$ (container layer $\kappa_{c} = 1$).                                                                                                                                                       |
 |                                                                                                                                                                                                                                                 |
-| **Theoretical Basis**: $\{ f_{1}\} \subseteq F(杯子)$, by Theorem 8, $\lbrack 杯子\rbrack \subseteq {\lbrack T\rbrack}_{\{ f_{1}\}}$—a subcategory is smaller than its parent category, and the direction is locked in by monotonicity. The same object can belong to a superordinate category without belonging to a subordinate subcategory; this is not a contradiction, but lattice structure (Proposition 5.3). |
+| **Theoretical Basis**: $\{ f_{1}\} \subseteq F(cup)$, by Theorem 8, $[cup] \subseteq {\lbrack T\rbrack}_{\{ f_{1}\}}$—a subcategory is smaller than its parent category, and the direction is locked in by monotonicity. The same object can belong to a superordinate category without belonging to a subordinate subcategory; this is not a contradiction, but lattice structure (Proposition 5.3). |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## 7.4　Question Four: Is an electric car ［car］?
+## 7.4 Question Four: Is an electric car ［car］?
 
 +--------------------------------------------------------------+
 | **▍Question**                                                |
@@ -1216,20 +1216,20 @@ This chapter rewrites the six judgment exercises from original Chapter 5.5.6 as 
 +--------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Answer　(Joint Three Layers)**                                                                                                                                                             |
+| **▍Answer (Joint Three Layers)**                                                                                                                                                             |
 |                                                                                                                                                                                               |
 | **First layer (Container)**: passengers and cargo can get in and out, and carrying different people it is still the same car. $\kappa_{c} = 1$.                                              |
 |                                                                                                                                                                                               |
-| **Second layer (SOM)**: $N = \{$電池組, 馬達, 車架$\}$; $D = \{$中控螢幕, 音響$\}$; $T = \{$裝飾條$\}$. Note: SOM concerns **structural roles**, not modes of implementation—the battery pack occupies the functional position of the engine. $\kappa_{s} = 1$. |
+| **Second layer (SOM)**: $N = \{$battery pack, motor, frame$\}$; $D = \{$central display, audio system$\}$; $T = \{$trim strip$\}$. Note: SOM concerns **structural roles**, not modes of implementation—the battery pack occupies the functional position of the engine. $\kappa_{s} = 1$. |
 |                                                                                                                                                                                               |
-| **Third layer (Abstraction)**: $F(汽車) = \{ 能在道路行駛,能載運人貨,有動力系統,可被駕駛操控\}$. Tesla passes all four. $\kappa_{a} = 1$.                                                    |
+| **Third layer (Abstraction)**: $F(car) = \\{drivable on roads, carries people or cargo, has a power system, can be operated by a driver\}$. Tesla passes all four. $\kappa_{a} = 1$.                                                    |
 |                                                                                                                                                                                               |
 | **Conclusion**: $J = 1$; the electric car is a car.                                                                                                                                           |
 |                                                                                                                                                                                               |
 | **Key point**: the rule says "has a power system" rather than "has an internal combustion engine." If the latter were mistakenly written, then by Theorem 10 "electric car" would become a member of the false-positive set and be wrongly excluded—**this is an error of feature engineering, not of the judgment procedure**. |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## 7.5　Question Five: Are the books on a bookshelf a container relation or a set relation?
+## 7.5 Question Five: Are the books on a bookshelf a container relation or a set relation?
 
 +------------------------------------------------------------+
 | **▍Question**                                              |
@@ -1238,38 +1238,38 @@ This chapter rewrites the six judgment exercises from original Chapter 5.5.6 as 
 +------------------------------------------------------------+
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Answer　(Criterion Relativity)**                                                                                                                                                                                                                        |
+| **▍Answer (Criterion Relativity)**                                                                                                                                                                                                                        |
 |                                                                                                                                                                                                                                                            |
-| **Case A**　Take the "whole" = the bookshelf (including the shelf structure): books can be placed, taken, and replaced, and the bookshelf's identity is unchanged, $\kappa_{c} = 1$; it is a container.                                                     |
+| **Case A** Take the "whole" = the bookshelf (including the shelf structure): books can be placed, taken, and replaced, and the bookshelf's identity is unchanged, $\kappa_{c} = 1$; it is a container.                                                     |
 |                                                                                                                                                                                                                                                            |
-| **Case B**　Take the "whole" = the collection of books: take one away and put another in, and the element set of the collection changes; by Corollary 0.1 it is already another set, $\kappa_{c} = 0$; it is a pure set.                                    |
+| **Case B** Take the "whole" = the collection of books: take one away and put another in, and the element set of the collection changes; by Corollary 0.1 it is already another set, $\kappa_{c} = 0$; it is a pure set.                                    |
 |                                                                                                                                                                                                                                                            |
 | **Theoretical Basis**: the type of determination is decided by **the choice of the whole**, not by the physical scene. Formally, the two cases correspond to two different $\mathbb{F}$ (different $S$ and $\mathcal{I}$), so the difference in conclusions does not constitute a contradiction. **The same scene can involve several types of determination at once**—this is the rigorous form of the original chapter's "it depends on what whole you are attending to." |
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-## 7.6　Question Six: Is an AI chatbot ［dialogue system］?
+## 7.6 Question Six: Is an AI chatbot ［dialogue system］?
 
 +-------------------------------------------------------------------------------------------------------------------------+
 | **▍Question**                                                                                                           |
 |                                                                                                                         |
-| $F(對話系統) = \{ f_{1}接收自然語言輸入,f_{2}產生自然語言回應,f_{3}維持對話上下文\}$. What does each of the FAQ bot and ChatGPT belong to? |
+| $F(dialogue system) = \{ f_{1}\text{ receives natural-language input},f_{2}\text{ produces natural-language replies},f_{3}\text{ keeps dialogue context}\}$. What does each of the FAQ bot and ChatGPT belong to? |
 +-------------------------------------------------------------------------------------------------------------------------+
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **▍Answer　(Cross-Domain Abstraction Judgment)**                                                                                                                                                             |
+| **▍Answer (Cross-Domain Abstraction Judgment)**                                                                                                                                                             |
 |                                                                                                                                                                                                              |
-| **Step 1**　ChatGPT: $f_{1} = f_{2} = f_{3} = 1$, so $\in \lbrack 對話系統\rbrack$.                                                                                                                          |
+| **Step 1** ChatGPT: $f_{1} = f_{2} = f_{3} = 1$, so $\in [dialogue system]$.                                                                                                                          |
 |                                                                                                                                                                                                              |
-| **Step 2**　FAQ bot: $f_{1} = 1$, $f_{2} = 1$, $f_{3} = 0$ (each query is independent, with no context), so $\notin \lbrack 對話系統\rbrack$.                                                                  |
+| **Step 2** FAQ bot: $f_{1} = 1$, $f_{2} = 1$, $f_{3} = 0$ (each query is independent, with no context), so $\notin [dialogue system]$.                                                                  |
 |                                                                                                                                                                                                              |
-| **Step 3**　But take the broader $F' = \{ f_{1},f_{2}\}$: by Theorem 8 ($F' \subseteq F$), ${\lbrack T\rbrack}_{F} \subseteq {\lbrack T\rbrack}_{F'}$, and the FAQ bot $\in {\lbrack T\rbrack}_{F'}$ = ［question-answering tool］. |
+| **Step 3** But take the broader $F' = \{ f_{1},f_{2}\}$: by Theorem 8 ($F' \subseteq F$), ${\lbrack T\rbrack}_{F} \subseteq {\lbrack T\rbrack}_{F'}$, and the FAQ bot $\in {\lbrack T\rbrack}_{F'}$ = ［question-answering tool］. |
 |                                                                                                                                                                                                              |
 | **Theoretical Significance**: do not ask essentialist questions like "is it really a dialogue system," but explicitly list $F(T)$ and test item by item. **The choice of the feature list is itself an expression of one's understanding of and stance on the concept**—Theorem 10 guarantees that the consequences of this stance (the size of the false-positive set) are computable. |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-# Chapter Eight　Conclusion
+# Chapter Eight Conclusion
 
-## 8.1　Overview of the Three Value-Adds
+## 8.1 Overview of the Three Value-Adds
 
   **Layer**               **Information Added Back**             **Formal Carrier**                                     **Key Theorems**    **Determination Cost**
   ----------------------- -------------------------------------- ------------------------------------------------------ ------------------- ----------------------
@@ -1278,23 +1278,23 @@ This chapter rewrites the six judgment exercises from original Chapter 5.5.6 as 
   **Abstraction**         A rule that can generate new members   $F(T)$ and $\bigcap(T)$                                Theorems 8, 9, 10   $$O(m)$$
   **Joint**               The complementary filtering of the three layers   $$J = \kappa_{c} \land \kappa_{s} \land \kappa_{a}$$   Theorems 11, 12   Take the maximum
 
-## 8.2　Theoretical Significance
+## 8.2 Theoretical Significance
 
 **From description to judgment.** Definitions and axioms solve "how to describe a Type"; Theorem 11 and Algorithm 6.3 solve "how to apply these descriptions to make decisions in actual situations." The former is a static knowledge structure, the latter a dynamic cognitive operation, and the two are linked by the same set of symbols.
 
 **Correspondence with AI classification systems.** Modern AI classification is essentially performing abstraction-layer determination ($\kappa_{a}$), and moreover using an incomplete feature set. Theorem 10 precisely points out this structural weakness (false positives are unavoidable), while Theorem 11 points out the two neglected layers: identity-persistence tracking ($\kappa_{c}$) and structural-dependence analysis ($\kappa_{s}$). The three-layer framework of Type Logic gives exactly the list of dimensions that world models need to add.
 
-## 8.3　Limitations and Honest Statement
+## 8.3 Limitations and Honest Statement
 
-1.　$\sigma$, $\kappa$ **are exogenous parameters**. The framework gives the monotonicity structure they must satisfy (A2a, A2b), but does not give numerical values. Judging "whether the whole survives after removing the bottom" is still a modeling judgment; what the framework guarantees is that once given, conclusions such as the three-way partition and collapse propagation **necessarily hold.
+1. $\sigma$, $\kappa$ **are exogenous parameters**. The framework gives the monotonicity structure they must satisfy (A2a, A2b), but does not give numerical values. Judging "whether the whole survives after removing the bottom" is still a modeling judgment; what the framework guarantees is that once given, conclusions such as the three-way partition and collapse propagation **necessarily hold.
 
-2.　**The choice of the feature set involves a stance**. Theorem 10 guarantees only the behavior after "given $F$"; it does not guarantee that $F$ is chosen correctly. Disputes over boundary cases (bowl, syringe) are reduced to disputes about features, not automatically dissolved.
+2. **The choice of the feature set involves a stance**. Theorem 10 guarantees only the behavior after "given $F$"; it does not guarantee that $F$ is chosen correctly. Disputes over boundary cases (bowl, syringe) are reduced to disputes about features, not automatically dissolved.
 
-3.　Obtaining $R$ is a modeling decision. This framework examines the consequences of the dependency structure (Theorem 6); it does not automatically discover "who depends on whom." In engineering practice, $R$ usually comes from BOM/SOM documents or domain experts.
+3. Obtaining $R$ is a modeling decision. This framework examines the consequences of the dependency structure (Theorem 6); it does not automatically discover "who depends on whom." In engineering practice, $R$ usually comes from BOM/SOM documents or domain experts.
 
-4.　The monotonicity of $\sigma$ and $\kappa$ may be violated. If a system has a pathological case in which "removing a part actually restores integrity" (for example an inhibitory regulatory loop), A2a does not hold, and Theorems 5 and 6 need to be relaxed. This is the boundary of the framework's applicability, not a defect of it—but it must be checked when using it.
+4. The monotonicity of $\sigma$ and $\kappa$ may be violated. If a system has a pathological case in which "removing a part actually restores integrity" (for example an inhibitory regulatory loop), A2a does not hold, and Theorems 5 and 6 need to be relaxed. This is the boundary of the framework's applicability, not a defect of it—but it must be checked when using it.
 
-# Appendix A　Symbol Table
+# Appendix A Symbol Table
 
   **Symbol**                                               **Meaning**                                             **Defined In**
   -------------------------------------------------------- ------------------------------------------------------- ------------
@@ -1316,7 +1316,7 @@ This chapter rewrites the six judgment exercises from original Chapter 5.5.6 as 
   $$\text{FP}(F)$$                                         False-positive set                                      Theorem 10
   $$J$$                                                    Joint three-layer determination operator                Definition 6.1
 
-# Appendix B　Theorem Index
+# Appendix B Theorem Index
 
   **Number**      **Name**                                                **Chapter**   **Depends On**
   --------------- ------------------------------------------------------- ------------- ----------------------------

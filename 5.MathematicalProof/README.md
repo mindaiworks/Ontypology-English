@@ -1,11 +1,3 @@
-# Ontypology
-
-# Space Type
-
-# Mathematical Proof
-
-*A Supplement to Unit Type and Set Logic*
-
 ![Cover — Mathematical Proof](CPIC/image01.jpg)
 
 ## TABLE OF CONTENTS

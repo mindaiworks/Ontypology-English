@@ -1,8 +1,4 @@
-# Ontypology
-
-# Space Type
-
-# BOOK INTRODUCTION
+# Space Type INTRODUCTION
 
 ![Cover](CPIC/image01.png)
 

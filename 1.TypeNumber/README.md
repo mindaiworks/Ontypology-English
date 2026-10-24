@@ -1,6 +1,4 @@
-# Ontypology
-
-# Space Ontypology
+# Ontypology-Space Ontypology
 
 # Type & Number
 

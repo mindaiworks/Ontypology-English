@@ -4,7 +4,7 @@
 
 *Type, Entity, Primary Key and Relation in a Relational Database*
 
-![Cover](main-EN.jpg)
+![](main_EN.jpg)
 
 ![](CPIC/image02.png)
 

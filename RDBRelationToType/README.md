@@ -1,12 +1,10 @@
-# Ontypology
-
-# Space as Type
+# Ontypology-Space as Type
 
 # RDB and Its Relation to Type
 
 *Type, Entity, Primary Key and Relation in a Relational Database*
 
-![Cover](CPIC/image01.png)
+![Cover](main-EN.jpg)
 
 ![](CPIC/image02.png)
 

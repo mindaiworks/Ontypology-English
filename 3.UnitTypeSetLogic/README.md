@@ -1,6 +1,4 @@
-# Ontypology
-
-# Unit Type and Set Logic
+# Ontypology-Unit Type and Set Logic
 
 *Unit Type — A Reorganization of Type Set and Type Logic*
 

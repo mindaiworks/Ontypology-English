@@ -714,6 +714,6 @@ Starting from a single cup, we have obtained an entire language for describing t
 
 www.longreat.net
 
-Zhang Changfeng   gamma@livemail.tw
+Chang Changfeng   gamma@livemail.tw
 
-Zhang Tingying   mindaiworks@gmail.com
+Chang Tingying   mindaiworks@gmail.com

@@ -63,7 +63,7 @@ She describes how, in the distant Cambrian period, everything was pitch-black. A
 
 ## [Physical Proof](Ontypology/PhysicalProof)
 
-## [Chemical Proof](Ontypology/Chemical Proof)
+## [Chemical Proof](Ontypology/ChemicalProof)
 
 ## [Mathematical Modeling](Ontypology/MathematicalModeling)
 

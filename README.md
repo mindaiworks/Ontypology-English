@@ -4,7 +4,7 @@
   <a href="https://github.com/mindaiworks/Paper"> 📖 Mind AI</a>
 </p>
 
-![](本形學-空間本形/main.jpg)
+![](Ontypology-SpaceType/main_en.jpg)
 From difference and similarity, to division and combination; from division and combination to form; from form to understanding — the brain has traveled this path for billions of years.
 
 Logic was philosophy a century ago; once seen clearly, it became a manifest discipline (science).

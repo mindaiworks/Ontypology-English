@@ -57,7 +57,7 @@ She describes how, in the distant Cambrian period, everything was pitch-black. A
 
 ## [Palantir & Mind AI](Applications/PalantirAndMindAI)
 
-## [Insufficiency of Knowledge Graphs](Applications/Insufficiency of Knowledge Graphs)
+## [Insufficiency of Knowledge Graphs](Applications/InsufficiencyofKnowledgeGraphs)
 
 ## [Liquid Neural Networks and Ontypology](Ontypology/LiquidNeuralNetworksAndOntypology)
 
